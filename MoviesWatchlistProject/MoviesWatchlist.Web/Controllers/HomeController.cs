@@ -1,24 +1,17 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using MoviesWatchlist.Web.Models;
+using MoviesWatchlist.Web.ViewModels.Home;
 using System.Diagnostics;
 
 namespace MoviesWatchlist.Web.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController()
         {
-            _logger = logger;
+            
         }
 
         public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult Privacy()
         {
             return View();
         }

@@ -15,4 +15,10 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.14" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\MoviesWatchlist.Common\MoviesWatchlist.Common.csproj" />
+    <ProjectReference Include="..\MoviesWatchlist.Data\MoviesWatchlist.Data.csproj" />
+    <ProjectReference Include="..\MoviesWatchlist.Web.ViewModels\MoviesWatchlist.Web.ViewModels.csproj" />
+  </ItemGroup>
+
 </Project>

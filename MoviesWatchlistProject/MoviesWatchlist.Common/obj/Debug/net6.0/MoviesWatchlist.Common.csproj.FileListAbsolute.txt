@@ -1,0 +1,12 @@
+D:\C#\ASP.NET materials\ASP.NET\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Common\bin\Debug\net6.0\MoviesWatchlist.Common.deps.json
+D:\C#\ASP.NET materials\ASP.NET\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Common\bin\Debug\net6.0\MoviesWatchlist.Common.dll
+D:\C#\ASP.NET materials\ASP.NET\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Common\bin\Debug\net6.0\MoviesWatchlist.Common.pdb
+D:\C#\ASP.NET materials\ASP.NET\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Common\obj\Debug\net6.0\MoviesWatchlist.Common.csproj.AssemblyReference.cache
+D:\C#\ASP.NET materials\ASP.NET\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Common\obj\Debug\net6.0\MoviesWatchlist.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\ASP.NET materials\ASP.NET\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Common\obj\Debug\net6.0\MoviesWatchlist.Common.AssemblyInfoInputs.cache
+D:\C#\ASP.NET materials\ASP.NET\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Common\obj\Debug\net6.0\MoviesWatchlist.Common.AssemblyInfo.cs
+D:\C#\ASP.NET materials\ASP.NET\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Common\obj\Debug\net6.0\MoviesWatchlist.Common.csproj.CoreCompileInputs.cache
+D:\C#\ASP.NET materials\ASP.NET\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Common\obj\Debug\net6.0\MoviesWatchlist.Common.dll
+D:\C#\ASP.NET materials\ASP.NET\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Common\obj\Debug\net6.0\refint\MoviesWatchlist.Common.dll
+D:\C#\ASP.NET materials\ASP.NET\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Common\obj\Debug\net6.0\MoviesWatchlist.Common.pdb
+D:\C#\ASP.NET materials\ASP.NET\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Common\obj\Debug\net6.0\ref\MoviesWatchlist.Common.dll

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MoviesWatchlist.Web.ViewModels/1.0.0": {
+        "runtime": {
+          "MoviesWatchlist.Web.ViewModels.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MoviesWatchlist.Web.ViewModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

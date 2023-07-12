@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using MoviesWatchlist.Web.Data;
+using MoviesWatchlist.Data;
 
 namespace MoviesWatchlist.Web
 {
@@ -13,13 +13,13 @@ namespace MoviesWatchlist.Web
             // Add services to the container.
             var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
             
-            builder.Services.AddDbContext<ApplicationDbContext>(options =>
+            builder.Services.AddDbContext<MoviesDbContext>(options =>
                 options.UseSqlServer(connectionString));
 
             builder.Services.AddDefaultIdentity<IdentityUser>(options => 
             {
                 options.SignIn.RequireConfirmedAccount = true;
-            }).AddEntityFrameworkStores<ApplicationDbContext>();
+            }).AddEntityFrameworkStores<MoviesDbContext>();
 
             builder.Services.AddControllersWithViews();
 
@@ -34,7 +34,7 @@ namespace MoviesWatchlist.Web
             else
             {
                 app.UseExceptionHandler("/Home/Error");
-                pp.UseHsts();
+                app.UseHsts();
             }
 
             app.UseHttpsRedirection();
