@@ -1,6 +1,6 @@
-using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using MoviesWatchlist.Data;
+using MoviesWatchlist.Data.Models;
 
 namespace MoviesWatchlist.Web
 {
@@ -12,13 +12,20 @@ namespace MoviesWatchlist.Web
 
             // Add services to the container.
             var connectionString = builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
-            
-            builder.Services.AddDbContext<MoviesDbContext>(options =>
-                options.UseSqlServer(connectionString));
 
-            builder.Services.AddDefaultIdentity<IdentityUser>(options => 
+            builder.Services.AddDbContext<MoviesDbContext>(options =>
             {
-                options.SignIn.RequireConfirmedAccount = true;
+                options.UseSqlServer(connectionString);
+                //options.EnableSensitiveDataLogging();
+            });
+
+            builder.Services.AddDefaultIdentity<AppUser>(options => 
+            {
+                options.SignIn.RequireConfirmedAccount = builder.Configuration.GetValue<bool>("Identity:SignIn:RequireConfirmedAccount");
+                options.Password.RequireNonAlphanumeric = builder.Configuration.GetValue<bool>("Identity:Password:RequireNonAlphanumeric");
+                options.Password.RequireLowercase = builder.Configuration.GetValue<bool>("Identity:Password:RequireLowercase");
+                options.Password.RequireUppercase = builder.Configuration.GetValue<bool>("Identity:Password:RequireUppercase");
+                options.Password.RequiredLength = builder.Configuration.GetValue<int>("Identity:Password:RequiredLength");
             }).AddEntityFrameworkStores<MoviesDbContext>();
 
             builder.Services.AddControllersWithViews();

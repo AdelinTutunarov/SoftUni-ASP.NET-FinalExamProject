@@ -982,6 +982,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.14",
           "Microsoft.Extensions.Identity.Stores": "6.0.14",
           "MoviesWatchlist.Common": "1.0.0"
         },
@@ -2526,6 +2527,7 @@
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.14",
       "MoviesWatchlist.Common >= 1.0.0",
       "MoviesWatchlist.Data >= 1.0.0",
+      "MoviesWatchlist.Data.Models >= 1.0.0",
       "MoviesWatchlist.Web.ViewModels >= 1.0.0"
     ]
   },
@@ -2558,6 +2560,9 @@
           "projectReferences": {
             "D:\\C#\\ASP.NET materials\\ASP.NET\\SoftUni-ASP.NET-FinalExamProject\\MoviesWatchlistProject\\MoviesWatchlist.Common\\MoviesWatchlist.Common.csproj": {
               "projectPath": "D:\\C#\\ASP.NET materials\\ASP.NET\\SoftUni-ASP.NET-FinalExamProject\\MoviesWatchlistProject\\MoviesWatchlist.Common\\MoviesWatchlist.Common.csproj"
+            },
+            "D:\\C#\\ASP.NET materials\\ASP.NET\\SoftUni-ASP.NET-FinalExamProject\\MoviesWatchlistProject\\MoviesWatchlist.Data.Models\\MoviesWatchlist.Data.Models.csproj": {
+              "projectPath": "D:\\C#\\ASP.NET materials\\ASP.NET\\SoftUni-ASP.NET-FinalExamProject\\MoviesWatchlistProject\\MoviesWatchlist.Data.Models\\MoviesWatchlist.Data.Models.csproj"
             },
             "D:\\C#\\ASP.NET materials\\ASP.NET\\SoftUni-ASP.NET-FinalExamProject\\MoviesWatchlistProject\\MoviesWatchlist.Data\\MoviesWatchlist.Data.csproj": {
               "projectPath": "D:\\C#\\ASP.NET materials\\ASP.NET\\SoftUni-ASP.NET-FinalExamProject\\MoviesWatchlistProject\\MoviesWatchlist.Data\\MoviesWatchlist.Data.csproj"

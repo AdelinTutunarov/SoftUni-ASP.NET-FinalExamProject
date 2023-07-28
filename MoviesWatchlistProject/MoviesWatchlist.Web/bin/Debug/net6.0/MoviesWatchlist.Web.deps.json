@@ -15,6 +15,7 @@
           "Microsoft.EntityFrameworkCore.Tools": "6.0.14",
           "MoviesWatchlist.Common": "1.0.0",
           "MoviesWatchlist.Data": "1.0.0",
+          "MoviesWatchlist.Data.Models": "1.0.0",
           "MoviesWatchlist.Web.ViewModels": "1.0.0"
         },
         "runtime": {
@@ -548,13 +549,28 @@
       "MoviesWatchlist.Data/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.14",
-          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.14"
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.14",
+          "MoviesWatchlist.Common": "1.0.0",
+          "MoviesWatchlist.Data.Models": "1.0.0"
         },
         "runtime": {
           "MoviesWatchlist.Data.dll": {}
         }
       },
+      "MoviesWatchlist.Data.Models/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.14",
+          "Microsoft.Extensions.Identity.Stores": "6.0.14",
+          "MoviesWatchlist.Common": "1.0.0"
+        },
+        "runtime": {
+          "MoviesWatchlist.Data.Models.dll": {}
+        }
+      },
       "MoviesWatchlist.Web.ViewModels/1.0.0": {
+        "dependencies": {
+          "MoviesWatchlist.Common": "1.0.0"
+        },
         "runtime": {
           "MoviesWatchlist.Web.ViewModels.dll": {}
         }
@@ -937,6 +953,11 @@
       "sha512": ""
     },
     "MoviesWatchlist.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MoviesWatchlist.Data.Models/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

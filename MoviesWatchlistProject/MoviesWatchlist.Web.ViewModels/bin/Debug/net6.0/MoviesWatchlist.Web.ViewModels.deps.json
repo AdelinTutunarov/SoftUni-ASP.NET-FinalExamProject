@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "MoviesWatchlist.Web.ViewModels/1.0.0": {
+        "dependencies": {
+          "MoviesWatchlist.Common": "1.0.0"
+        },
         "runtime": {
           "MoviesWatchlist.Web.ViewModels.dll": {}
+        }
+      },
+      "MoviesWatchlist.Common/1.0.0": {
+        "runtime": {
+          "MoviesWatchlist.Common.dll": {}
         }
       }
     }
   },
   "libraries": {
     "MoviesWatchlist.Web.ViewModels/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MoviesWatchlist.Common/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

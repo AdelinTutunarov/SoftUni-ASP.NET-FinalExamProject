@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using MoviesWatchlist.Data.Models;
+using System.Reflection;
 
 namespace MoviesWatchlist.Data
 {
-    public class MoviesDbContext : IdentityDbContext
+    public class MoviesDbContext : IdentityDbContext<AppUser, IdentityRole<Guid>, Guid>
     {
         public MoviesDbContext(DbContextOptions<MoviesDbContext> options)
             : base(options)
@@ -31,7 +33,9 @@ namespace MoviesWatchlist.Data
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
-            builder.Entity<Movie>().Property(p => p.Rating).HasPrecision(18, 2);
+            Assembly configAssembly = Assembly.GetAssembly(typeof(MoviesDbContext)) ?? Assembly.GetExecutingAssembly();
+
+            builder.ApplyConfigurationsFromAssembly(configAssembly);
 
             builder.Entity<MovieActor>().HasKey(x => new { x.MovieId, x.ActorId });
 

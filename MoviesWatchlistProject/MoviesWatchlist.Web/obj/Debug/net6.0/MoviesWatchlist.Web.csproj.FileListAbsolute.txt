@@ -80,3 +80,6 @@ D:\C#\ASP.NET materials\ASP.NET\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlist
 D:\C#\ASP.NET materials\ASP.NET\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Web\bin\Debug\net6.0\MoviesWatchlist.Web.ViewModels.dll
 D:\C#\ASP.NET materials\ASP.NET\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Web\bin\Debug\net6.0\MoviesWatchlist.Web.ViewModels.pdb
 D:\C#\ASP.NET materials\ASP.NET\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Web\obj\Debug\net6.0\MoviesWatchlist.Web.MvcApplicationPartsAssemblyInfo.cs
+D:\C#\ASP.NET materials\ASP.NET\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Web\bin\Debug\net6.0\appsettings.Production.json
+D:\C#\ASP.NET materials\ASP.NET\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Web\bin\Debug\net6.0\MoviesWatchlist.Data.Models.dll
+D:\C#\ASP.NET materials\ASP.NET\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Web\bin\Debug\net6.0\MoviesWatchlist.Data.Models.pdb

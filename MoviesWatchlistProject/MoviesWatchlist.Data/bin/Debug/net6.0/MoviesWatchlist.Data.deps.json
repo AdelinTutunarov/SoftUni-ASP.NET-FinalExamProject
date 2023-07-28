@@ -10,7 +10,9 @@
         "dependencies": {
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.14",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.14",
-          "Microsoft.EntityFrameworkCore.Tools": "6.0.14"
+          "Microsoft.EntityFrameworkCore.Tools": "6.0.14",
+          "MoviesWatchlist.Common": "1.0.0",
+          "MoviesWatchlist.Data.Models": "1.0.0"
         },
         "runtime": {
           "MoviesWatchlist.Data.dll": {}
@@ -539,6 +541,21 @@
             "fileVersion": "4.700.19.56404"
           }
         }
+      },
+      "MoviesWatchlist.Common/1.0.0": {
+        "runtime": {
+          "MoviesWatchlist.Common.dll": {}
+        }
+      },
+      "MoviesWatchlist.Data.Models/1.0.0": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.14",
+          "Microsoft.Extensions.Identity.Stores": "6.0.14",
+          "MoviesWatchlist.Common": "1.0.0"
+        },
+        "runtime": {
+          "MoviesWatchlist.Data.Models.dll": {}
+        }
       }
     }
   },
@@ -883,6 +900,16 @@
       "sha512": "sha512-CeWTdRNfRaSh0pm2gDTJFwVaXfTq6Xwv/sA887iwPTneW7oMtMlpvDIO+U60+3GWTB7Aom6oQwv5VZVUhQRdPQ==",
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
+    },
+    "MoviesWatchlist.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MoviesWatchlist.Data.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }
