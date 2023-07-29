@@ -38,15 +38,15 @@ namespace MoviesWatchlist.Data.Models
 
         [Required]
         [ForeignKey(nameof(Director))]
-        public int DirectorId { get; set; }
+        public Guid DirectorId { get; set; }
         public Director Director { get; set; } = null!;
 
-        public IEnumerable<MovieActor> MoviesActors { get; set; }
+        public ICollection<MovieActor> MoviesActors { get; set; }
 
-        public IEnumerable<MovieGenre> MoviesGenres { get; set; }
+        public ICollection<MovieGenre> MoviesGenres { get; set; }
 
-        public IEnumerable<MovieWriter> MoviesWriters { get; set; }
+        public ICollection<MovieWriter> MoviesWriters { get; set; }
 
-        public IEnumerable<IdentityUserMovie> IdentityUsersMovies { get; set; }
+        public ICollection<IdentityUserMovie> IdentityUsersMovies { get; set; }
     }
 }

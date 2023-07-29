@@ -12,7 +12,7 @@ namespace MoviesWatchlist.Data.Models
 
         [Required]
         [ForeignKey(nameof(Writer))]
-        public int WriterId { get; set; }
+        public Guid WriterId { get; set; }
         public Writer Writer { get; set; } = null!;
     }
 }

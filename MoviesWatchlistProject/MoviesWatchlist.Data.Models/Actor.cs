@@ -8,11 +8,12 @@ namespace MoviesWatchlist.Data.Models
     {
         public Actor()
         {
+            Id = Guid.NewGuid();
             MoviesActors = new HashSet<MovieActor>();
         }
 
         [Key]
-        public int Id { get; set; }
+        public Guid Id { get; set; }
 
         [Required]
         [MaxLength(FirstNameMaxLength)]
@@ -26,6 +27,6 @@ namespace MoviesWatchlist.Data.Models
         [MaxLength(NationalityMaxLength)]
         public string Nationality { get; set; } = null!;
 
-        public IEnumerable<MovieActor> MoviesActors { get; set; }
+        public ICollection<MovieActor> MoviesActors { get; set; }
     }
 }

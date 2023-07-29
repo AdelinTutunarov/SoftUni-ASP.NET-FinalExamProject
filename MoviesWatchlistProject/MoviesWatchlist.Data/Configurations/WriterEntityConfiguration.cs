@@ -19,7 +19,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             writer = new Writer()
             {
-                Id = 1,
                 FirstName = "Roberto",
                 LastName = "Orci",
                 Nationality = "Mexican-American"
@@ -28,7 +27,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             writer = new Writer()
             {
-                Id = 2,
                 FirstName = "Alex",
                 LastName = "Kurtzman",
                 Nationality = "American"
@@ -37,7 +35,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             writer = new Writer()
             {
-                Id = 3,
                 FirstName = "John",
                 LastName = "Rogers",
                 Nationality = "American"
@@ -46,7 +43,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             writer = new Writer()
             {
-                Id = 4,
                 FirstName = "Ehren",
                 LastName = "Kruger",
                 Nationality = "American"
@@ -55,7 +51,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             writer = new Writer()
             {
-                Id = 5,
                 FirstName = "Ken",
                 LastName = "Nolan",
                 Nationality = "American"
@@ -64,7 +59,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             writer = new Writer()
             {
-                Id = 6,
                 FirstName = "Art",
                 LastName = "Marcum",
                 Nationality = "American"
@@ -73,7 +67,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             writer = new Writer()
             {
-                Id = 7,
                 FirstName = "Matt",
                 LastName = "Holloway",
                 Nationality = "American"
@@ -82,7 +75,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             writer = new Writer()
             {
-                Id = 8,
                 FirstName = "Christina",
                 LastName = "Hodson",
                 Nationality = "British"
@@ -91,7 +83,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             writer = new Writer()
             {
-                Id = 9,
                 FirstName = "Mark",
                 LastName = "Fergus",
                 Nationality = "American"
@@ -100,7 +91,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             writer = new Writer()
             {
-                Id = 10,
                 FirstName = "Hawk",
                 LastName = "Ostby",
                 Nationality = "American"
@@ -109,7 +99,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             writer = new Writer()
             {
-                Id = 11,
                 FirstName = "Justin",
                 LastName = "Theroux",
                 Nationality = "American"
@@ -118,7 +107,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             writer = new Writer()
             {
-                Id = 12,
                 FirstName = "Chris",
                 LastName = "McKenna",
                 Nationality = "American"
@@ -127,7 +115,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             writer = new Writer()
             {
-                Id = 13,
                 FirstName = "Erik",
                 LastName = "Sommers",
                 Nationality = "American"
@@ -136,7 +123,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             writer = new Writer()
             {
-                Id = 14,
                 FirstName = "Jonathan",
                 LastName = "Goldstein",
                 Nationality = "American"
@@ -145,7 +131,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             writer = new Writer()
             {
-                Id = 15,
                 FirstName = "John",
                 LastName = "Daley",
                 Nationality = "American"
@@ -154,7 +139,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             writer = new Writer()
             {
-                Id = 16,
                 FirstName = "Christopher",
                 LastName = "Ford",
                 Nationality = "American"
@@ -163,7 +147,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             writer = new Writer()
             {
-                Id = 17,
                 FirstName = "Joby",
                 LastName = "Harold",
                 Nationality = "English"

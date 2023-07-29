@@ -12,7 +12,7 @@ using MoviesWatchlist.Data;
 namespace MoviesWatchlist.Data.Migrations
 {
     [DbContext(typeof(MoviesDbContext))]
-    [Migration("20230728075943_Initial")]
+    [Migration("20230729104230_Initial")]
     partial class Initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -161,11 +161,9 @@ namespace MoviesWatchlist.Data.Migrations
 
             modelBuilder.Entity("MoviesWatchlist.Data.Models.Actor", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("FirstName")
                         .IsRequired()
@@ -189,161 +187,161 @@ namespace MoviesWatchlist.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = 1,
+                            Id = new Guid("a145d6de-a56b-4212-948e-c91f3cd55739"),
                             FirstName = "Hugo",
                             LastName = "Weaving",
                             Nationality = "British"
                         },
                         new
                         {
-                            Id = 2,
+                            Id = new Guid("23e767cf-efd1-4407-a560-a52fddae07ca"),
                             FirstName = "Shia",
                             LastName = "LaBeouf",
                             Nationality = "American"
                         },
                         new
                         {
-                            Id = 3,
+                            Id = new Guid("3399ca51-6179-410b-88d9-a4bedcd24c96"),
                             FirstName = "Megan",
                             LastName = "Fox",
                             Nationality = "American"
                         },
                         new
                         {
-                            Id = 4,
+                            Id = new Guid("0f9f5fba-7b14-495a-aac9-57c5a0f1617a"),
                             FirstName = "Tyrese",
                             LastName = "Gibson",
                             Nationality = "American"
                         },
                         new
                         {
-                            Id = 5,
+                            Id = new Guid("a25d4265-618e-4207-8109-0d53f89653bf"),
                             FirstName = "Joshua",
                             LastName = "Duhamel",
                             Nationality = "American"
                         },
                         new
                         {
-                            Id = 6,
+                            Id = new Guid("aaff44cb-ae90-4fc5-a213-509103ee589d"),
                             FirstName = "John",
                             LastName = "Turturro",
                             Nationality = "American"
                         },
                         new
                         {
-                            Id = 7,
+                            Id = new Guid("3876aa34-f85c-417e-8744-9a0b18c73f5d"),
                             FirstName = "Mark",
                             LastName = "Wahlberg",
                             Nationality = "American"
                         },
                         new
                         {
-                            Id = 8,
+                            Id = new Guid("c6d8ec2a-c52b-424d-a054-10d55f1c508f"),
                             FirstName = "Stanley",
                             LastName = "Tucci",
                             Nationality = "American"
                         },
                         new
                         {
-                            Id = 9,
+                            Id = new Guid("fe0a8cbc-9e87-4257-8498-075e847e382a"),
                             FirstName = "Anthony",
                             LastName = "Hopkins",
                             Nationality = "Welsh"
                         },
                         new
                         {
-                            Id = 10,
+                            Id = new Guid("102b6971-7278-471a-bee8-44976bc1616b"),
                             FirstName = "Hailee",
                             LastName = "Steinfeld",
                             Nationality = "American"
                         },
                         new
                         {
-                            Id = 11,
+                            Id = new Guid("25a3f672-0ce0-4003-9583-e3d3654ad5da"),
                             FirstName = "John",
                             LastName = "Cena",
                             Nationality = "American"
                         },
                         new
                         {
-                            Id = 12,
+                            Id = new Guid("989d0418-da25-474f-8d7d-0f6dfebf4263"),
                             FirstName = "John",
                             LastName = "Ortiz",
                             Nationality = "American"
                         },
                         new
                         {
-                            Id = 13,
+                            Id = new Guid("2908138e-a1ef-489e-bde0-d805f1584e0e"),
                             FirstName = "Anthony",
                             LastName = "Ramos",
                             Nationality = "American"
                         },
                         new
                         {
-                            Id = 14,
+                            Id = new Guid("4c900406-2962-4de1-a8c7-923b57dbe2f8"),
                             FirstName = "Dominique",
                             LastName = "Fishback",
                             Nationality = "American"
                         },
                         new
                         {
-                            Id = 15,
+                            Id = new Guid("a018cb3b-e630-437e-ab04-2488adfb2671"),
                             FirstName = "Robert",
                             LastName = "Downey Jr.",
                             Nationality = "American"
                         },
                         new
                         {
-                            Id = 16,
+                            Id = new Guid("6bb7a659-6a82-45b1-903d-b089d228e699"),
                             FirstName = "Terrence",
                             LastName = "Howard",
                             Nationality = "American"
                         },
                         new
                         {
-                            Id = 17,
+                            Id = new Guid("be066a1b-08d2-4e7b-b6c8-ec4a157cffb4"),
                             FirstName = "Gwyneth",
                             LastName = "Paltrow",
                             Nationality = "American"
                         },
                         new
                         {
-                            Id = 18,
+                            Id = new Guid("a76e3acb-eda2-44f8-8f0e-42c1fa2072cb"),
                             FirstName = "Scarlett",
                             LastName = "Johansson",
                             Nationality = "American"
                         },
                         new
                         {
-                            Id = 19,
+                            Id = new Guid("9677782d-0580-4590-87bb-dca5a7df1898"),
                             FirstName = "Samuel",
                             LastName = "Jackson",
                             Nationality = "American"
                         },
                         new
                         {
-                            Id = 20,
+                            Id = new Guid("d7498ede-dc2b-4cd0-a987-a0818c0653ee"),
                             FirstName = "Tom",
                             LastName = "Holland",
                             Nationality = "English"
                         },
                         new
                         {
-                            Id = 21,
+                            Id = new Guid("6e076de8-9235-4ab6-8f16-01e19f0b2d11"),
                             FirstName = "Michael",
                             LastName = "Keaton",
                             Nationality = "American"
                         },
                         new
                         {
-                            Id = 22,
+                            Id = new Guid("857450bf-8ba2-4797-b83e-8253aac8a080"),
                             FirstName = "Zendaya",
                             LastName = "Coleman",
                             Nationality = "American"
                         },
                         new
                         {
-                            Id = 23,
+                            Id = new Guid("09e9e00e-87b1-4ad5-a3f4-6656f4ef582f"),
                             FirstName = "Jacob",
                             LastName = "Batalon",
                             Nationality = "American"
@@ -418,11 +416,9 @@ namespace MoviesWatchlist.Data.Migrations
 
             modelBuilder.Entity("MoviesWatchlist.Data.Models.Director", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("FirstName")
                         .IsRequired()
@@ -446,35 +442,35 @@ namespace MoviesWatchlist.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = 1,
+                            Id = new Guid("75712a98-bb11-4db1-92e2-acc7a477c325"),
                             FirstName = "Michael",
                             LastName = "Bay",
                             Nationality = "American"
                         },
                         new
                         {
-                            Id = 2,
+                            Id = new Guid("c681c71b-638b-42bd-88a0-b3cd86525d4b"),
                             FirstName = "Travis",
                             LastName = "Knight",
                             Nationality = "American"
                         },
                         new
                         {
-                            Id = 3,
+                            Id = new Guid("daa714f4-8da2-46a1-aaad-877b026865e5"),
                             FirstName = "Steven",
                             LastName = "Caple Jr.",
                             Nationality = "American"
                         },
                         new
                         {
-                            Id = 4,
+                            Id = new Guid("3e88e0ab-1f41-4e29-a0a8-9187c65c969c"),
                             FirstName = "Jonathan",
                             LastName = "Favreau",
                             Nationality = "American"
                         },
                         new
                         {
-                            Id = 5,
+                            Id = new Guid("c0c98a54-6d27-4235-9e4f-87471195036a"),
                             FirstName = "Jonathan",
                             LastName = "Watts",
                             Nationality = "American"
@@ -483,11 +479,9 @@ namespace MoviesWatchlist.Data.Migrations
 
             modelBuilder.Entity("MoviesWatchlist.Data.Models.Genre", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("Name")
                         .IsRequired()
@@ -501,92 +495,92 @@ namespace MoviesWatchlist.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = 1,
+                            Id = new Guid("2cbd8fa3-04b2-4046-bf79-a2e3139499b1"),
                             Name = "Action"
                         },
                         new
                         {
-                            Id = 2,
+                            Id = new Guid("fc6067c6-093c-46ac-a31f-c9d4aeb61a15"),
                             Name = "Comedy"
                         },
                         new
                         {
-                            Id = 3,
+                            Id = new Guid("2890ffb5-39c3-49c7-8ac2-d7c1596744ee"),
                             Name = "Drama"
                         },
                         new
                         {
-                            Id = 4,
+                            Id = new Guid("7d691aa7-1bfb-48bf-b0d3-8d826a39165e"),
                             Name = "Fantasy"
                         },
                         new
                         {
-                            Id = 5,
+                            Id = new Guid("64508423-0ed3-4785-bfb2-6e21272d64a4"),
                             Name = "Horror"
                         },
                         new
                         {
-                            Id = 6,
+                            Id = new Guid("fd2c8902-5b6c-4b66-af01-8fc96d4c8379"),
                             Name = "Mystery"
                         },
                         new
                         {
-                            Id = 7,
+                            Id = new Guid("bb47773a-700f-4be2-b0b4-25d7e646a248"),
                             Name = "Romance"
                         },
                         new
                         {
-                            Id = 8,
+                            Id = new Guid("0a06a66a-97c5-4ca8-ab0d-13eb9e190451"),
                             Name = "Thriller"
                         },
                         new
                         {
-                            Id = 9,
+                            Id = new Guid("06c946ea-f6c1-4210-b6c0-4546b113d468"),
                             Name = "Crime"
                         },
                         new
                         {
-                            Id = 10,
+                            Id = new Guid("cf449426-3a0b-4a2a-954e-0be7a26286d3"),
                             Name = "Psychological"
                         },
                         new
                         {
-                            Id = 11,
+                            Id = new Guid("3e491a9f-6ce9-4d83-b2c3-f3a594cb8b41"),
                             Name = "Western"
                         },
                         new
                         {
-                            Id = 12,
+                            Id = new Guid("991f5414-a73d-496e-8ad4-4dde92998825"),
                             Name = "War and military"
                         },
                         new
                         {
-                            Id = 13,
+                            Id = new Guid("457aa818-518f-4f5d-9aa7-989793c552f7"),
                             Name = "Martial arts"
                         },
                         new
                         {
-                            Id = 14,
+                            Id = new Guid("368f5f5b-2db5-4fe2-8d8e-acf599e7d0d7"),
                             Name = "Sci-Fi"
                         },
                         new
                         {
-                            Id = 15,
+                            Id = new Guid("b442dd64-5e1e-4feb-9846-152cb7a62571"),
                             Name = "Historical"
                         },
                         new
                         {
-                            Id = 16,
+                            Id = new Guid("2608eadc-f2e4-47e1-a97e-8cbb7b165f0a"),
                             Name = "Supernatural"
                         },
                         new
                         {
-                            Id = 17,
+                            Id = new Guid("ec6947a1-331a-46fb-bf41-5ad7ea727d55"),
                             Name = "Sports"
                         },
                         new
                         {
-                            Id = 18,
+                            Id = new Guid("c79dedde-fb6c-4678-8f2e-5f2be69998d8"),
                             Name = "Adventure"
                         });
                 });
@@ -617,8 +611,8 @@ namespace MoviesWatchlist.Data.Migrations
                         .HasMaxLength(1000)
                         .HasColumnType("nvarchar(1000)");
 
-                    b.Property<int>("DirectorId")
-                        .HasColumnType("int");
+                    b.Property<Guid>("DirectorId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("ImageURL")
                         .IsRequired()
@@ -649,8 +643,8 @@ namespace MoviesWatchlist.Data.Migrations
                     b.Property<Guid>("MovieId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<int>("ActorId")
-                        .HasColumnType("int");
+                    b.Property<Guid>("ActorId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.HasKey("MovieId", "ActorId");
 
@@ -664,8 +658,8 @@ namespace MoviesWatchlist.Data.Migrations
                     b.Property<Guid>("MovieId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<int>("GenreId")
-                        .HasColumnType("int");
+                    b.Property<Guid>("GenreId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.HasKey("MovieId", "GenreId");
 
@@ -679,8 +673,8 @@ namespace MoviesWatchlist.Data.Migrations
                     b.Property<Guid>("MovieId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<int>("WriterId")
-                        .HasColumnType("int");
+                    b.Property<Guid>("WriterId")
+                        .HasColumnType("uniqueidentifier");
 
                     b.HasKey("MovieId", "WriterId");
 
@@ -691,11 +685,9 @@ namespace MoviesWatchlist.Data.Migrations
 
             modelBuilder.Entity("MoviesWatchlist.Data.Models.Writer", b =>
                 {
-                    b.Property<int>("Id")
+                    b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("FirstName")
                         .IsRequired()
@@ -719,119 +711,119 @@ namespace MoviesWatchlist.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = 1,
+                            Id = new Guid("7d6b1565-bc84-4f2c-a34e-76c8e772e122"),
                             FirstName = "Roberto",
                             LastName = "Orci",
                             Nationality = "Mexican-American"
                         },
                         new
                         {
-                            Id = 2,
+                            Id = new Guid("f077230e-6c39-4c69-b7d5-e2fca1dc4910"),
                             FirstName = "Alex",
                             LastName = "Kurtzman",
                             Nationality = "American"
                         },
                         new
                         {
-                            Id = 3,
+                            Id = new Guid("6dea9a15-fa05-4036-a679-85865dfba25d"),
                             FirstName = "John",
                             LastName = "Rogers",
                             Nationality = "American"
                         },
                         new
                         {
-                            Id = 4,
+                            Id = new Guid("37ceddb7-e7f3-4880-ae1b-96bae0af264c"),
                             FirstName = "Ehren",
                             LastName = "Kruger",
                             Nationality = "American"
                         },
                         new
                         {
-                            Id = 5,
+                            Id = new Guid("efe82100-f4e7-465e-b77b-a40fa1858750"),
                             FirstName = "Ken",
                             LastName = "Nolan",
                             Nationality = "American"
                         },
                         new
                         {
-                            Id = 6,
+                            Id = new Guid("ebb5e25c-672e-4bcb-9fe4-a05c969571b5"),
                             FirstName = "Art",
                             LastName = "Marcum",
                             Nationality = "American"
                         },
                         new
                         {
-                            Id = 7,
+                            Id = new Guid("fbf45c67-ebb6-4f25-81ed-c3464a5717b8"),
                             FirstName = "Matt",
                             LastName = "Holloway",
                             Nationality = "American"
                         },
                         new
                         {
-                            Id = 8,
+                            Id = new Guid("8249bb1f-c4e1-4c57-ae8b-c4c449cb9244"),
                             FirstName = "Christina",
                             LastName = "Hodson",
                             Nationality = "British"
                         },
                         new
                         {
-                            Id = 9,
+                            Id = new Guid("b0d1adb5-52c1-477e-b7fc-29db424bafdb"),
                             FirstName = "Mark",
                             LastName = "Fergus",
                             Nationality = "American"
                         },
                         new
                         {
-                            Id = 10,
+                            Id = new Guid("4cb154ae-d288-48d9-a7a3-92201d556bb5"),
                             FirstName = "Hawk",
                             LastName = "Ostby",
                             Nationality = "American"
                         },
                         new
                         {
-                            Id = 11,
+                            Id = new Guid("4dfb06c4-970f-4b9f-978a-10c86ad7d66b"),
                             FirstName = "Justin",
                             LastName = "Theroux",
                             Nationality = "American"
                         },
                         new
                         {
-                            Id = 12,
+                            Id = new Guid("d12b795a-c090-4bf5-90a3-9c7400f42b2e"),
                             FirstName = "Chris",
                             LastName = "McKenna",
                             Nationality = "American"
                         },
                         new
                         {
-                            Id = 13,
+                            Id = new Guid("5ea8502b-87b8-43c6-b5dc-0eb60f1a13ac"),
                             FirstName = "Erik",
                             LastName = "Sommers",
                             Nationality = "American"
                         },
                         new
                         {
-                            Id = 14,
+                            Id = new Guid("fa95a713-7d6d-47d0-b401-d9d3f4dbce3d"),
                             FirstName = "Jonathan",
                             LastName = "Goldstein",
                             Nationality = "American"
                         },
                         new
                         {
-                            Id = 15,
+                            Id = new Guid("9f4ccfd8-c068-426c-81b3-a4f03b163f8c"),
                             FirstName = "John",
                             LastName = "Daley",
                             Nationality = "American"
                         },
                         new
                         {
-                            Id = 16,
+                            Id = new Guid("23de6343-2f1e-4cdf-8c5e-e1d533d3ce81"),
                             FirstName = "Christopher",
                             LastName = "Ford",
                             Nationality = "American"
                         },
                         new
                         {
-                            Id = 17,
+                            Id = new Guid("da41c8ec-a920-4739-a713-3e0fba894412"),
                             FirstName = "Joby",
                             LastName = "Harold",
                             Nationality = "English"

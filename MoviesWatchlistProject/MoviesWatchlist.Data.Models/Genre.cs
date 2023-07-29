@@ -8,16 +8,17 @@ namespace MoviesWatchlist.Data.Models
     {
         public Genre()
         {
+            Id = Guid.NewGuid();
             MoviesGenres = new HashSet<MovieGenre>();
         }
 
         [Key]
-        public int Id { get; set; }
+        public Guid Id { get; set; }
 
         [Required]
         [MaxLength(NameMaxLength)]
         public string Name { get; set; } = null!;
 
-        public IEnumerable<MovieGenre> MoviesGenres { get; set; }
+        public ICollection<MovieGenre> MoviesGenres { get; set; }
     }
 }

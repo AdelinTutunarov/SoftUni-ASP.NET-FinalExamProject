@@ -12,7 +12,7 @@ namespace MoviesWatchlist.Data.Models
 
         [Required]
         [ForeignKey(nameof(Actor))]
-        public int ActorId { get; set; }
+        public Guid ActorId { get; set; }
         public Actor Actor { get; set; } = null!;
     }
 }

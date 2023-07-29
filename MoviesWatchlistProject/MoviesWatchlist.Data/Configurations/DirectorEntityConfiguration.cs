@@ -19,7 +19,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             director = new Director()
             {
-                Id = 1,
                 FirstName = "Michael",
                 LastName = "Bay",
                 Nationality = "American"
@@ -28,7 +27,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             director = new Director()
             {
-                Id = 2,
                 FirstName = "Travis",
                 LastName = "Knight",
                 Nationality = "American"
@@ -37,7 +35,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             director = new Director()
             {
-                Id = 3,
                 FirstName = "Steven",
                 LastName = "Caple Jr.",
                 Nationality = "American"
@@ -46,7 +43,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             director = new Director()
             {
-                Id = 4,
                 FirstName = "Jonathan",
                 LastName = "Favreau",
                 Nationality = "American"
@@ -55,7 +51,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             director = new Director()
             {
-                Id = 5,
                 FirstName = "Jonathan",
                 LastName = "Watts",
                 Nationality = "American"

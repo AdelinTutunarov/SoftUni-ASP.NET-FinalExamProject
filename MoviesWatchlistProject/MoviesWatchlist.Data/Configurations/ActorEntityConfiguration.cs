@@ -19,7 +19,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             actor = new Actor()
             {
-                Id = 1,
                 FirstName = "Hugo",
                 LastName = "Weaving",
                 Nationality = "British"
@@ -28,7 +27,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             actor = new Actor()
             {
-                Id = 2,
                 FirstName = "Shia",
                 LastName = "LaBeouf",
                 Nationality = "American"
@@ -37,7 +35,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             actor = new Actor()
             {
-                Id = 3,
                 FirstName = "Megan",
                 LastName = "Fox",
                 Nationality = "American"
@@ -46,7 +43,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             actor = new Actor()
             {
-                Id = 4,
                 FirstName = "Tyrese",
                 LastName = "Gibson",
                 Nationality = "American"
@@ -55,7 +51,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             actor = new Actor()
             {
-                Id = 5,
                 FirstName = "Joshua",
                 LastName = "Duhamel",
                 Nationality = "American"
@@ -64,7 +59,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             actor = new Actor()
             {
-                Id = 6,
                 FirstName = "John",
                 LastName = "Turturro",
                 Nationality = "American"
@@ -73,7 +67,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             actor = new Actor()
             {
-                Id = 7,
                 FirstName = "Mark",
                 LastName = "Wahlberg",
                 Nationality = "American"
@@ -82,7 +75,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             actor = new Actor()
             {
-                Id = 8,
                 FirstName = "Stanley",
                 LastName = "Tucci",
                 Nationality = "American"
@@ -91,7 +83,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             actor = new Actor()
             {
-                Id = 9,
                 FirstName = "Anthony",
                 LastName = "Hopkins",
                 Nationality = "Welsh"
@@ -100,7 +91,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             actor = new Actor()
             {
-                Id = 10,
                 FirstName = "Hailee",
                 LastName = "Steinfeld",
                 Nationality = "American"
@@ -109,7 +99,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             actor = new Actor()
             {
-                Id = 11,
                 FirstName = "John",
                 LastName = "Cena",
                 Nationality = "American"
@@ -118,7 +107,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             actor = new Actor()
             {
-                Id = 12,
                 FirstName = "John",
                 LastName = "Ortiz",
                 Nationality = "American"
@@ -127,7 +115,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             actor = new Actor()
             {
-                Id = 13,
                 FirstName = "Anthony",
                 LastName = "Ramos",
                 Nationality = "American"
@@ -136,7 +123,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             actor = new Actor()
             {
-                Id = 14,
                 FirstName = "Dominique",
                 LastName = "Fishback",
                 Nationality = "American"
@@ -145,7 +131,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             actor = new Actor()
             {
-                Id = 15,
                 FirstName = "Robert",
                 LastName = "Downey Jr.",
                 Nationality = "American"
@@ -154,7 +139,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             actor = new Actor()
             {
-                Id = 16,
                 FirstName = "Terrence",
                 LastName = "Howard",
                 Nationality = "American"
@@ -163,7 +147,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             actor = new Actor()
             {
-                Id = 17,
                 FirstName = "Gwyneth",
                 LastName = "Paltrow",
                 Nationality = "American"
@@ -172,7 +155,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             actor = new Actor()
             {
-                Id = 18,
                 FirstName = "Scarlett",
                 LastName = "Johansson",
                 Nationality = "American"
@@ -181,7 +163,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             actor = new Actor()
             {
-                Id = 19,
                 FirstName = "Samuel",
                 LastName = "Jackson",
                 Nationality = "American"
@@ -190,7 +171,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             actor = new Actor()
             {
-                Id = 20,
                 FirstName = "Tom",
                 LastName = "Holland",
                 Nationality = "English"
@@ -199,7 +179,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             actor = new Actor()
             {
-                Id = 21,
                 FirstName = "Michael",
                 LastName = "Keaton",
                 Nationality = "American"
@@ -208,7 +187,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             actor = new Actor()
             {
-                Id = 22,
                 FirstName = "Zendaya",
                 LastName = "Coleman",
                 Nationality = "American"
@@ -217,7 +195,6 @@ namespace MoviesWatchlist.Data.Configurations
 
             actor = new Actor()
             {
-                Id = 23,
                 FirstName = "Jacob",
                 LastName = "Batalon",
                 Nationality = "American"
