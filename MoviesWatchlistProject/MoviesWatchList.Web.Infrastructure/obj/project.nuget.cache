@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kUoGNkYaZMwRI6ZcMaFWccgi8lih1+MY6MkzraWPJf9S0LK5T+7xukijVhdQQLhMkwQHnKrk204qCSpZ4oUKcw==",
+  "success": true,
+  "projectFilePath": "D:\\C#\\ASP.NET materials\\ASP.NET\\Project\\SoftUni-ASP.NET-FinalExamProject\\MoviesWatchlistProject\\MoviesWatchList.Web.Infrastructure\\MoviesWatchList.Web.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Adelin\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

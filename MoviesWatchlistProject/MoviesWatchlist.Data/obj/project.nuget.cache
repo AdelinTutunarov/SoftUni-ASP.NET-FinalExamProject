@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uCwbFYOYSRF5kwQTcYazxRwGu6tm7T1BRphT+s65xri5S7oElwlos+3+umUPYH0lx1EK1B+9AhH+h9jNDpgwNw==",
+  "dgSpecHash": "53sM0QM6MJWsd4iK2QLIQeHtIt1aIz1w+KZ+m6PQ1fktA222HGXGVUurv8KhSbkRhxA//uZVzRY7oQD+lfKouA==",
   "success": true,
-  "projectFilePath": "D:\\C#\\ASP.NET materials\\ASP.NET\\SoftUni-ASP.NET-FinalExamProject\\MoviesWatchlistProject\\MoviesWatchlist.Data\\MoviesWatchlist.Data.csproj",
+  "projectFilePath": "D:\\C#\\ASP.NET materials\\ASP.NET\\Project\\SoftUni-ASP.NET-FinalExamProject\\MoviesWatchlistProject\\MoviesWatchlist.Data\\MoviesWatchlist.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Adelin\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Adelin\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.14\\microsoft.aspnetcore.cryptography.internal.6.0.14.nupkg.sha512",

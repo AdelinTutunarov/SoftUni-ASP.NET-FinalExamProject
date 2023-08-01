@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\ASP.NET materials\\ASP.NET\\SoftUni-ASP.NET-FinalExamProject\\MoviesWatchlistProject\\MoviesWatchlist.Web.ViewModels\\MoviesWatchlist.Web.ViewModels.csproj": {}
+    "D:\\C#\\ASP.NET materials\\ASP.NET\\Project\\SoftUni-ASP.NET-FinalExamProject\\MoviesWatchlistProject\\MoviesWatchlist.Web.ViewModels\\MoviesWatchlist.Web.ViewModels.csproj": {}
   },
   "projects": {
-    "D:\\C#\\ASP.NET materials\\ASP.NET\\SoftUni-ASP.NET-FinalExamProject\\MoviesWatchlistProject\\MoviesWatchlist.Common\\MoviesWatchlist.Common.csproj": {
+    "D:\\C#\\ASP.NET materials\\ASP.NET\\Project\\SoftUni-ASP.NET-FinalExamProject\\MoviesWatchlistProject\\MoviesWatchlist.Common\\MoviesWatchlist.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\ASP.NET materials\\ASP.NET\\SoftUni-ASP.NET-FinalExamProject\\MoviesWatchlistProject\\MoviesWatchlist.Common\\MoviesWatchlist.Common.csproj",
+        "projectUniqueName": "D:\\C#\\ASP.NET materials\\ASP.NET\\Project\\SoftUni-ASP.NET-FinalExamProject\\MoviesWatchlistProject\\MoviesWatchlist.Common\\MoviesWatchlist.Common.csproj",
         "projectName": "MoviesWatchlist.Common",
-        "projectPath": "D:\\C#\\ASP.NET materials\\ASP.NET\\SoftUni-ASP.NET-FinalExamProject\\MoviesWatchlistProject\\MoviesWatchlist.Common\\MoviesWatchlist.Common.csproj",
+        "projectPath": "D:\\C#\\ASP.NET materials\\ASP.NET\\Project\\SoftUni-ASP.NET-FinalExamProject\\MoviesWatchlistProject\\MoviesWatchlist.Common\\MoviesWatchlist.Common.csproj",
         "packagesPath": "C:\\Users\\Adelin\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\ASP.NET materials\\ASP.NET\\SoftUni-ASP.NET-FinalExamProject\\MoviesWatchlistProject\\MoviesWatchlist.Common\\obj\\",
+        "outputPath": "D:\\C#\\ASP.NET materials\\ASP.NET\\Project\\SoftUni-ASP.NET-FinalExamProject\\MoviesWatchlistProject\\MoviesWatchlist.Common\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Adelin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "D:\\C#\\ASP.NET materials\\ASP.NET\\SoftUni-ASP.NET-FinalExamProject\\MoviesWatchlistProject\\MoviesWatchlist.Web.ViewModels\\MoviesWatchlist.Web.ViewModels.csproj": {
+    "D:\\C#\\ASP.NET materials\\ASP.NET\\Project\\SoftUni-ASP.NET-FinalExamProject\\MoviesWatchlistProject\\MoviesWatchlist.Web.ViewModels\\MoviesWatchlist.Web.ViewModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\ASP.NET materials\\ASP.NET\\SoftUni-ASP.NET-FinalExamProject\\MoviesWatchlistProject\\MoviesWatchlist.Web.ViewModels\\MoviesWatchlist.Web.ViewModels.csproj",
+        "projectUniqueName": "D:\\C#\\ASP.NET materials\\ASP.NET\\Project\\SoftUni-ASP.NET-FinalExamProject\\MoviesWatchlistProject\\MoviesWatchlist.Web.ViewModels\\MoviesWatchlist.Web.ViewModels.csproj",
         "projectName": "MoviesWatchlist.Web.ViewModels",
-        "projectPath": "D:\\C#\\ASP.NET materials\\ASP.NET\\SoftUni-ASP.NET-FinalExamProject\\MoviesWatchlistProject\\MoviesWatchlist.Web.ViewModels\\MoviesWatchlist.Web.ViewModels.csproj",
+        "projectPath": "D:\\C#\\ASP.NET materials\\ASP.NET\\Project\\SoftUni-ASP.NET-FinalExamProject\\MoviesWatchlistProject\\MoviesWatchlist.Web.ViewModels\\MoviesWatchlist.Web.ViewModels.csproj",
         "packagesPath": "C:\\Users\\Adelin\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\ASP.NET materials\\ASP.NET\\SoftUni-ASP.NET-FinalExamProject\\MoviesWatchlistProject\\MoviesWatchlist.Web.ViewModels\\obj\\",
+        "outputPath": "D:\\C#\\ASP.NET materials\\ASP.NET\\Project\\SoftUni-ASP.NET-FinalExamProject\\MoviesWatchlistProject\\MoviesWatchlist.Web.ViewModels\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Adelin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\C#\\ASP.NET materials\\ASP.NET\\SoftUni-ASP.NET-FinalExamProject\\MoviesWatchlistProject\\MoviesWatchlist.Common\\MoviesWatchlist.Common.csproj": {
-                "projectPath": "D:\\C#\\ASP.NET materials\\ASP.NET\\SoftUni-ASP.NET-FinalExamProject\\MoviesWatchlistProject\\MoviesWatchlist.Common\\MoviesWatchlist.Common.csproj"
+              "D:\\C#\\ASP.NET materials\\ASP.NET\\Project\\SoftUni-ASP.NET-FinalExamProject\\MoviesWatchlistProject\\MoviesWatchlist.Common\\MoviesWatchlist.Common.csproj": {
+                "projectPath": "D:\\C#\\ASP.NET materials\\ASP.NET\\Project\\SoftUni-ASP.NET-FinalExamProject\\MoviesWatchlistProject\\MoviesWatchlist.Common\\MoviesWatchlist.Common.csproj"
               }
             }
           }

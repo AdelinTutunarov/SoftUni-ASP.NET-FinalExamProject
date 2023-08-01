@@ -1,6 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using MoviesWatchlist.Data;
 using MoviesWatchlist.Data.Models;
+using MoviesWatchlist.Services.Data.Interfaces;
+using MoviesWatchList.Web.Infrastructure.Extensions;
 
 namespace MoviesWatchlist.Web
 {
@@ -16,7 +18,6 @@ namespace MoviesWatchlist.Web
             builder.Services.AddDbContext<MoviesDbContext>(options =>
             {
                 options.UseSqlServer(connectionString);
-                //options.EnableSensitiveDataLogging();
             });
 
             builder.Services.AddDefaultIdentity<AppUser>(options => 
@@ -27,6 +28,8 @@ namespace MoviesWatchlist.Web
                 options.Password.RequireUppercase = builder.Configuration.GetValue<bool>("Identity:Password:RequireUppercase");
                 options.Password.RequiredLength = builder.Configuration.GetValue<int>("Identity:Password:RequiredLength");
             }).AddEntityFrameworkStores<MoviesDbContext>();
+
+            builder.Services.AddAppServices(typeof(IMovieService));
 
             builder.Services.AddControllersWithViews();
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5vS9WR++zskegi1fzJ6lBuFHGO90BpWNtonMixtQDOd/ARCK+q0wpeWB/g1losqS+Bx6NKv/hSz39/Qnb/OOxQ==",
+  "dgSpecHash": "ltKmzu7Yk8y2O7iphz8jqnjgYenxmo5KUDKrE1+lXvQ3jZOscjF6ReLAEXUaX1lgkWBfLADIhLJVm0zSuxogyg==",
   "success": true,
-  "projectFilePath": "D:\\C#\\ASP.NET materials\\ASP.NET\\SoftUni-ASP.NET-FinalExamProject\\MoviesWatchlistProject\\MoviesWatchlist.Data.Models\\MoviesWatchlist.Data.Models.csproj",
+  "projectFilePath": "D:\\C#\\ASP.NET materials\\ASP.NET\\Project\\SoftUni-ASP.NET-FinalExamProject\\MoviesWatchlistProject\\MoviesWatchlist.Data.Models\\MoviesWatchlist.Data.Models.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Adelin\\.nuget\\packages\\microsoft.aspnetcore.cryptography.internal\\6.0.14\\microsoft.aspnetcore.cryptography.internal.6.0.14.nupkg.sha512",
     "C:\\Users\\Adelin\\.nuget\\packages\\microsoft.aspnetcore.cryptography.keyderivation\\6.0.14\\microsoft.aspnetcore.cryptography.keyderivation.6.0.14.nupkg.sha512",

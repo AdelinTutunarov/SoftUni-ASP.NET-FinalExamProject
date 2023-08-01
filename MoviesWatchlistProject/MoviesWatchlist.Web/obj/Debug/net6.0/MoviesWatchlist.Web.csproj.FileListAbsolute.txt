@@ -83,3 +83,15 @@ D:\C#\ASP.NET materials\ASP.NET\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlist
 D:\C#\ASP.NET materials\ASP.NET\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Web\bin\Debug\net6.0\appsettings.Production.json
 D:\C#\ASP.NET materials\ASP.NET\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Web\bin\Debug\net6.0\MoviesWatchlist.Data.Models.dll
 D:\C#\ASP.NET materials\ASP.NET\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Web\bin\Debug\net6.0\MoviesWatchlist.Data.Models.pdb
+D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Web\obj\Debug\net6.0\MoviesWatchlist.Web.csproj.AssemblyReference.cache
+D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Web\obj\Debug\net6.0\MoviesWatchlist.Web.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Web\obj\Debug\net6.0\MoviesWatchlist.Web.AssemblyInfoInputs.cache
+D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Web\obj\Debug\net6.0\MoviesWatchlist.Web.AssemblyInfo.cs
+D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Web\obj\Debug\net6.0\MoviesWatchlist.Web.csproj.CoreCompileInputs.cache
+D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Web\obj\Debug\net6.0\MoviesWatchlist.Web.MvcApplicationPartsAssemblyInfo.cs
+D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Web\obj\Debug\net6.0\MoviesWatchlist.Web.MvcApplicationPartsAssemblyInfo.cache
+D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Web\obj\Debug\net6.0\MoviesWatchlist.Web.RazorAssemblyInfo.cache
+D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Web\obj\Debug\net6.0\MoviesWatchlist.Web.RazorAssemblyInfo.cs
+D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Web\obj\Debug\net6.0\MoviesWatchlist.Web.dll
+D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Web\obj\Debug\net6.0\refint\MoviesWatchlist.Web.dll
+D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Web\obj\Debug\net6.0\MoviesWatchlist.Web.pdb

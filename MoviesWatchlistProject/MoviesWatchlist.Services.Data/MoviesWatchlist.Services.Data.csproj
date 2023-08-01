@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MoviesWatchlist.Common\MoviesWatchlist.Common.csproj" />
+    <ProjectReference Include="..\MoviesWatchlist.Data.Models\MoviesWatchlist.Data.Models.csproj" />
+    <ProjectReference Include="..\MoviesWatchlist.Data\MoviesWatchlist.Data.csproj" />
+    <ProjectReference Include="..\MoviesWatchlist.Web.ViewModels\MoviesWatchlist.Web.ViewModels.csproj" />
+  </ItemGroup>
+
+</Project>

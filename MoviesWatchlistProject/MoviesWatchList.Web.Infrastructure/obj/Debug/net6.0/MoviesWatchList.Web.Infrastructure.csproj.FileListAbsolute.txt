@@ -1,0 +1,12 @@
+D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchList.Web.Infrastructure\bin\Debug\net6.0\MoviesWatchList.Web.Infrastructure.deps.json
+D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchList.Web.Infrastructure\bin\Debug\net6.0\MoviesWatchList.Web.Infrastructure.dll
+D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchList.Web.Infrastructure\bin\Debug\net6.0\MoviesWatchList.Web.Infrastructure.pdb
+D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchList.Web.Infrastructure\obj\Debug\net6.0\MoviesWatchList.Web.Infrastructure.csproj.AssemblyReference.cache
+D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchList.Web.Infrastructure\obj\Debug\net6.0\MoviesWatchList.Web.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchList.Web.Infrastructure\obj\Debug\net6.0\MoviesWatchList.Web.Infrastructure.AssemblyInfoInputs.cache
+D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchList.Web.Infrastructure\obj\Debug\net6.0\MoviesWatchList.Web.Infrastructure.AssemblyInfo.cs
+D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchList.Web.Infrastructure\obj\Debug\net6.0\MoviesWatchList.Web.Infrastructure.csproj.CoreCompileInputs.cache
+D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchList.Web.Infrastructure\obj\Debug\net6.0\MoviesWatchList.Web.Infrastructure.dll
+D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchList.Web.Infrastructure\obj\Debug\net6.0\refint\MoviesWatchList.Web.Infrastructure.dll
+D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchList.Web.Infrastructure\obj\Debug\net6.0\MoviesWatchList.Web.Infrastructure.pdb
+D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchList.Web.Infrastructure\obj\Debug\net6.0\ref\MoviesWatchList.Web.Infrastructure.dll
