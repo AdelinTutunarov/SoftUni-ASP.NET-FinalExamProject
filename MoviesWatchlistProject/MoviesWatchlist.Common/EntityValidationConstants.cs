@@ -22,8 +22,13 @@
         {
             public const int TitleMinLength = 1;
             public const int TitleMaxLength = 200;
+            public const int ReleaseYearMinValue = 1900;
+            public const int ReleaseYearMaxValue = 2024;
+            public const int RatingMinValue = 1;
+            public const int RatingMaxValue = 10;
             public const int DescriptionMinLength = 3;
             public const int DescriptionMaxLength = 1000;
+            public const int ImageURLMinLength = 5;
             public const int ImageURLMaxLength = 2048;
         }
     }
