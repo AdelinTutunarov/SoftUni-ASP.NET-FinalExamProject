@@ -1,4 +1,5 @@
-﻿using MoviesWatchlist.Web.ViewModels.MovieParticipants;
+﻿using MoviesWatchlist.Web.ViewModels.Genre;
+using MoviesWatchlist.Web.ViewModels.MovieParticipants;
 using System.ComponentModel.DataAnnotations;
 
 namespace MoviesWatchlist.Web.ViewModels.Movie
@@ -11,9 +12,11 @@ namespace MoviesWatchlist.Web.ViewModels.Movie
         {
             WritersIds = new HashSet<string>();
             ActorsIds = new HashSet<string>();
+            GenresIds = new HashSet<string>();
             Directors = new HashSet<SelectParticipantFormModel>();
             Writers = new HashSet<SelectParticipantFormModel>();
             Actors = new HashSet<SelectParticipantFormModel>();
+            Genres = new HashSet<SelectGenreFormModel>();
         }
 
         [Required]
@@ -51,5 +54,9 @@ namespace MoviesWatchlist.Web.ViewModels.Movie
         public ICollection<string> ActorsIds { get; set; }
 
         public IEnumerable<SelectParticipantFormModel> Actors { get; set; }
+
+        public ICollection<string> GenresIds { get; set; }
+
+        public IEnumerable<SelectGenreFormModel> Genres { get; set; }
     }
 }
