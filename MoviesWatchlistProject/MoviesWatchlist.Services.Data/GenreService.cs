@@ -27,5 +27,12 @@ namespace MoviesWatchlist.Services.Data
 
             return allGenres;
         }
+
+        public async Task<bool> ExistsByIdAsync(string id)
+        {
+            bool result = await dbContext.Genres.AnyAsync(g => g.Id.ToString() == id);
+
+            return result;
+        }
     }
 }

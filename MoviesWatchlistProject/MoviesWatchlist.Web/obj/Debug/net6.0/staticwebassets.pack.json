@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "D:\\C#\\ASP.NET materials\\ASP.NET\\Project\\SoftUni-ASP.NET-FinalExamProject\\MoviesWatchlistProject\\MoviesWatchlist.Web\\wwwroot\\js\\jquery-override.js",
+      "PackagePath": "staticwebassets\\js\\jquery-override.js"
+    },
+    {
       "Id": "D:\\C#\\ASP.NET materials\\ASP.NET\\Project\\SoftUni-ASP.NET-FinalExamProject\\MoviesWatchlistProject\\MoviesWatchlist.Web\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Eju3MXLd1oMsHXvDXRG0GNSSVxT+3weNP3m1VZtJtkw=",
+  "Hash": "beQT/Uk0qtAtnV1f+Ly8GmU/uunNNi5RQiWQgZUKucI=",
   "Source": "MoviesWatchlist.Web",
   "BasePath": "_content/MoviesWatchlist.Web",
   "Mode": "Default",
@@ -1103,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "D:\\C#\\ASP.NET materials\\ASP.NET\\Project\\SoftUni-ASP.NET-FinalExamProject\\MoviesWatchlistProject\\MoviesWatchlist.Web\\wwwroot\\js\\jquery-override.js",
+      "SourceId": "MoviesWatchlist.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\C#\\ASP.NET materials\\ASP.NET\\Project\\SoftUni-ASP.NET-FinalExamProject\\MoviesWatchlistProject\\MoviesWatchlist.Web\\wwwroot\\",
+      "BasePath": "_content/MoviesWatchlist.Web",
+      "RelativePath": "js/jquery-override.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\jquery-override.js"
     },
     {
       "Identity": "D:\\C#\\ASP.NET materials\\ASP.NET\\Project\\SoftUni-ASP.NET-FinalExamProject\\MoviesWatchlistProject\\MoviesWatchlist.Web\\wwwroot\\js\\site.js",

@@ -27,5 +27,12 @@ namespace MoviesWatchlist.Services.Data
 
             return allWriters;
         }
+
+        public async Task<bool> ExistsByIdAsync(string id)
+        {
+            bool result = await dbContext.Writers.AnyAsync(w => w.Id.ToString() == id);
+
+            return result;
+        }
     }
 }

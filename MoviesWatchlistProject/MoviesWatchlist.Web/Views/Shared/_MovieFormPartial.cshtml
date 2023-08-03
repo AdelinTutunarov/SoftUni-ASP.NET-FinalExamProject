@@ -40,7 +40,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="WritersIds" >Select Writers:</label>
-                <select asp-for="WritersIds" multiple="multiple" class="listbox">
+                <select asp-for="WritersIds" multiple="multiple" class="listbox" required>
                     @foreach (var writer in Model.Writers)
                     {
                         <option value="@writer.Id">@writer.FullName</option>
@@ -50,7 +50,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="ActorsIds">Select Actors:</label>
-                <select asp-for="ActorsIds" multiple="multiple" class="listbox">
+                <select asp-for="ActorsIds" multiple="multiple" class="listbox" required>
                     @foreach (var actor in Model.Actors)
                     {
                             <option value="@actor.Id">@actor.FullName</option>
@@ -60,7 +60,7 @@
             </div>
             <div class="form-group">
                 <label asp-for="GenresIds">Select Genres:</label>
-                <select asp-for="GenresIds" multiple="multiple" class="listbox">
+                <select asp-for="GenresIds" multiple="multiple" class="listbox" required>
                     @foreach (var genre in Model.Genres)
                     {
                                 <option value="@genre.Id">@genre.Name</option>
