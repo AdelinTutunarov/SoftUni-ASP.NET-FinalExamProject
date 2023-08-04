@@ -29,10 +29,7 @@ namespace MoviesWatchlist.Services.Data
 				Rating = model.Rating,
 				Description = model.Description,
 				ImageURL = model.ImgURL,
-				DirectorId = Guid.Parse(model.DirectorId),
-				//MoviesActors = movieActors,
-				//MoviesWriters = movieWriters,
-				//MoviesGenres = movieGenres
+				DirectorId = Guid.Parse(model.DirectorId)
 			};
 
             foreach (var actor in model.Actors)
