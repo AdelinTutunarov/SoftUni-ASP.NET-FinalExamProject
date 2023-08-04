@@ -17,38 +17,9 @@ namespace MoviesWatchlist.Services.Data
         public async Task AddMovieAsync(AddMovieViewModel model)
         {
 			Guid id = Guid.NewGuid();
-			ICollection<MovieActor> movieActors = new HashSet<MovieActor>();
-			ICollection<MovieWriter> movieWriters = new HashSet<MovieWriter>();
-			ICollection<MovieGenre> movieGenres = new HashSet<MovieGenre>();
-
-			foreach (var actor in model.Actors)
-			{
-				MovieActor movieActor = new MovieActor()
-				{
-					ActorId = Guid.Parse(actor.Id),
-					MovieId = id
-				};
-				movieActors.Add(movieActor);
-			}
-
-			foreach (var writer in model.Writers)
-			{
-				MovieWriter movieWriter = new MovieWriter()
-				{
-					WriterId = Guid.Parse(writer.Id),
-					MovieId = id
-				};
-				movieWriters.Add(movieWriter);
-			}
-
-			foreach (var genre in model.Genres)
-			{
-				MovieGenre movieGenre = new MovieGenre()
-				{
-					GenreId = Guid.Parse(genre.Id),
-					MovieId = id
-				};
-			}
+            string[] existingActorIds = dbContext.Actors.Select(a => a.Id.ToString()).ToArray();
+            string[] existingWriterIds = dbContext.Writers.Select(w => w.Id.ToString()).ToArray();
+            string[] existingGenreIds = dbContext.Genres.Select(g => g.Id.ToString()).ToArray();
 
             Movie movie = new Movie()
 			{
@@ -59,12 +30,51 @@ namespace MoviesWatchlist.Services.Data
 				Description = model.Description,
 				ImageURL = model.ImgURL,
 				DirectorId = Guid.Parse(model.DirectorId),
-				MoviesActors = movieActors,
-				MoviesWriters = movieWriters,
-				MoviesGenres = movieGenres
+				//MoviesActors = movieActors,
+				//MoviesWriters = movieWriters,
+				//MoviesGenres = movieGenres
 			};
 
-			await dbContext.AddAsync(movie);
+            foreach (var actor in model.Actors)
+            {
+                if (existingActorIds.Contains(actor.Id))
+                {
+                    MovieActor movieActor = new MovieActor()
+                    {
+                        ActorId = Guid.Parse(actor.Id),
+                        MovieId = id
+                    };
+                    movie.MoviesActors.Add(movieActor);
+                }
+            }
+
+            foreach (var writer in model.Writers)
+            {
+                if (existingWriterIds.Contains(writer.Id))
+                {
+                    MovieWriter movieWriter = new MovieWriter()
+                    {
+                        WriterId = Guid.Parse(writer.Id),
+                        MovieId = id
+                    };
+                    movie.MoviesWriters.Add(movieWriter);
+                }
+            }
+
+            foreach (var genre in model.Genres)
+            {
+                if (existingGenreIds.Contains(genre.Id))
+                {
+                    MovieGenre movieGenre = new MovieGenre()
+                    {
+                        GenreId = Guid.Parse(genre.Id),
+                        MovieId = id
+                    };
+                    movie.MoviesGenres.Add(movieGenre);
+                }
+            }
+
+            await dbContext.AddAsync(movie);
 			await dbContext.SaveChangesAsync();
         }
     }
