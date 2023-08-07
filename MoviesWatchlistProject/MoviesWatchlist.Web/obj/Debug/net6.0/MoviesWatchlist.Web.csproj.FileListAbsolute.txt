@@ -172,3 +172,15 @@ D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesW
 D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Web\obj\Debug\net6.0\MoviesWatchlist.Web.csproj.CopyComplete
 D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Web\obj\Debug\net6.0\MoviesWatchlist.Web.genruntimeconfig.cache
 D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Web\obj\Debug\net6.0\ref\MoviesWatchlist.Web.dll
+D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Web\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Web\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
+D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Web\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
+D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Web\bin\Debug\net6.0\Microsoft.CodeAnalysis.dll
+D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Web\bin\Debug\net6.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Web\bin\Debug\net6.0\Microsoft.CodeAnalysis.Razor.dll
+D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Web\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
+D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Web\bin\Debug\net6.0\Microsoft.Extensions.DependencyModel.dll
+D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Web\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Web\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll
+D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Web\bin\Debug\net6.0\MoviesWatchlist.Services.Data.Models.dll
+D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Web\bin\Debug\net6.0\MoviesWatchlist.Services.Data.Models.pdb

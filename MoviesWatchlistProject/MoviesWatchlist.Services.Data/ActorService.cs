@@ -1,6 +1,8 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using MoviesWatchlist.Data;
+using MoviesWatchlist.Data.Models;
 using MoviesWatchlist.Services.Data.Interfaces;
+using MoviesWatchlist.Services.Data.Models.MovieParticipants;
 using MoviesWatchlist.Web.ViewModels.MovieParticipants;
 
 namespace MoviesWatchlist.Services.Data
@@ -26,6 +28,37 @@ namespace MoviesWatchlist.Services.Data
                 }).ToArrayAsync();
 
             return allActors;
+        }
+
+        public async Task<AllParticipantServiceModel> AllAsync(AllParticipantQueryModel queryModel)
+        {
+            IQueryable<Actor> actorsQuery = dbContext.Actors.AsQueryable();
+
+            if (!string.IsNullOrWhiteSpace(queryModel.FullName))
+            {
+                string wildCard = $"%{queryModel.FullName.ToLower()}%";
+
+                actorsQuery = actorsQuery.Where(a => EF.Functions.Like($"{a.FirstName} {a.LastName}", wildCard));
+            }
+
+            IEnumerable<AllParticipantViewModel> actors = await actorsQuery
+                .Skip((queryModel.CurrentPage - 1) * queryModel.ParticipantsPerPage)
+                .Take(queryModel.ParticipantsPerPage)
+                .Select(a => new AllParticipantViewModel()
+                {
+                    Id = a.Id.ToString(),
+                    FullName = $"{a.FirstName} {a.LastName}",
+                    Nationality = a.Nationality,
+                    ImageURL = a.ImageURL
+                }).ToArrayAsync();
+
+            int totalActors = actorsQuery.Count();
+
+            return new AllParticipantServiceModel()
+            {
+                TotalParticipantsCount = totalActors,
+                Participants = actors
+            };
         }
 
         public async Task<bool> ExistsByIdAsync(string id)

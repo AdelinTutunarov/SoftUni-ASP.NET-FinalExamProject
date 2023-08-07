@@ -1,7 +1,10 @@
-﻿using MoviesWatchlist.Data;
+﻿using Microsoft.EntityFrameworkCore;
+using MoviesWatchlist.Data;
 using MoviesWatchlist.Data.Models;
 using MoviesWatchlist.Services.Data.Interfaces;
+using MoviesWatchlist.Services.Data.Models.Movie;
 using MoviesWatchlist.Web.ViewModels.Movie;
+using MoviesWatchlist.Web.ViewModels.Movie.Enums;
 
 namespace MoviesWatchlist.Services.Data
 {
@@ -73,6 +76,47 @@ namespace MoviesWatchlist.Services.Data
 
             await dbContext.AddAsync(movie);
 			await dbContext.SaveChangesAsync();
+        }
+
+        public async Task<AllMovieServiceModel> AllAsync(AllMovieQueryModel queryModel)
+        {
+            IQueryable<Movie> moviesQuery = dbContext.Movies.AsQueryable();
+
+            if (!string.IsNullOrWhiteSpace(queryModel.Title))
+            {
+                string wildCard = $"%{queryModel.Title.ToLower()}%";
+
+                moviesQuery = moviesQuery.Where(m => EF.Functions.Like(m.Title, wildCard));
+            }
+
+            moviesQuery = queryModel.MovieSorting switch
+            {
+                MovieSorting.ReleaseYearNewest => moviesQuery.OrderBy(m => m.ReleaseYear),
+                MovieSorting.ReleaseYearOldest => moviesQuery.OrderByDescending(m => m.ReleaseYear),
+                MovieSorting.RatingAscending => moviesQuery.OrderBy(m => m.Rating),
+                MovieSorting.RatingDescending => moviesQuery.OrderByDescending(m => m.Rating),
+                _ => moviesQuery.OrderBy(m => m.Id)
+            };
+
+            IEnumerable<AllMovieViewModel> movies = await moviesQuery
+                .Skip((queryModel.CurrentPage - 1) * queryModel.MoviesPerPage)
+                .Take(queryModel.MoviesPerPage)
+                .Select(m => new AllMovieViewModel()
+                {
+                    Id = m.Id.ToString(),
+                    Title = m.Title,
+                    ReleaseYear = m.ReleaseYear,
+                    Rating = m.Rating,
+                    ImgURL = m.ImageURL
+                }).ToArrayAsync();
+
+            int totalMovies = moviesQuery.Count();
+
+            return new AllMovieServiceModel()
+            {
+                TotalMoviesCount = totalMovies,
+                Movies = movies
+            };
         }
     }
 }

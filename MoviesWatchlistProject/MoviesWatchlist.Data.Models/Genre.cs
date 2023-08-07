@@ -19,6 +19,10 @@ namespace MoviesWatchlist.Data.Models
         [MaxLength(NameMaxLength)]
         public string Name { get; set; } = null!;
 
+        [Required]
+        [MaxLength(ImageURLMaxLength)]
+        public string ImageURL { get; set; } = null!;
+
         public ICollection<MovieGenre> MoviesGenres { get; set; }
     }
 }

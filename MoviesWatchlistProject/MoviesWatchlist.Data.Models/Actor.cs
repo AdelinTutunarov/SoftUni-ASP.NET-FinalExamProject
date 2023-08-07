@@ -24,6 +24,10 @@ namespace MoviesWatchlist.Data.Models
         public string LastName { get; set; } = null!;
 
         [Required]
+        [MaxLength(ImageURLMaxLength)]
+        public string ImageURL { get; set; } = null!;
+
+        [Required]
         [MaxLength(NationalityMaxLength)]
         public string Nationality { get; set; } = null!;
 

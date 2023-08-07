@@ -21,7 +21,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "Roberto",
                 LastName = "Orci",
-                Nationality = "Mexican-American"
+                Nationality = "Mexican-American",
+                ImageURL = "https://en.wikipedia.org/wiki/Roberto_Orci#/media/File:Roberto_Orci_by_Gage_Skidmore.jpg"
             };
             writers.Add(writer);
 
@@ -29,7 +30,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "Alex",
                 LastName = "Kurtzman",
-                Nationality = "American"
+                Nationality = "American",
+                ImageURL = "https://en.wikipedia.org/wiki/Alex_Kurtzman#/media/File:Alex_Kurtzman_San_Diego_Comic_Con_2019.jpg"
             };
             writers.Add(writer);
 
@@ -37,7 +39,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "John",
                 LastName = "Rogers",
-                Nationality = "American"
+                Nationality = "American",
+                ImageURL = "https://en.wikipedia.org/wiki/John_Rogers_(writer)#/media/File:John_Rogers_(971464822)_(cropped).jpg"
             };
             writers.Add(writer);
 
@@ -45,7 +48,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "Ehren",
                 LastName = "Kruger",
-                Nationality = "American"
+                Nationality = "American",
+                ImageURL = "https://www.freepik.com/free-photo/user-profile-icon-front-side_41949685.htm#query=default%20avatar%20profile&position=3&from_view=search&track=ais"
             };
             writers.Add(writer);
 
@@ -53,7 +57,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "Ken",
                 LastName = "Nolan",
-                Nationality = "American"
+                Nationality = "American",
+                ImageURL = "https://www.freepik.com/free-photo/user-profile-icon-front-side_41949685.htm#query=default%20avatar%20profile&position=3&from_view=search&track=ais"
             };
             writers.Add(writer);
 
@@ -61,7 +66,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "Art",
                 LastName = "Marcum",
-                Nationality = "American"
+                Nationality = "American",
+                ImageURL = "https://www.freepik.com/free-photo/user-profile-icon-front-side_41949685.htm#query=default%20avatar%20profile&position=3&from_view=search&track=ais"
             };
             writers.Add(writer);
 
@@ -69,7 +75,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "Matt",
                 LastName = "Holloway",
-                Nationality = "American"
+                Nationality = "American",
+                ImageURL = "https://www.freepik.com/free-photo/user-profile-icon-front-side_41949685.htm#query=default%20avatar%20profile&position=3&from_view=search&track=ais"
             };
             writers.Add(writer);
 
@@ -77,7 +84,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "Christina",
                 LastName = "Hodson",
-                Nationality = "British"
+                Nationality = "British",
+                ImageURL = "https://en.wikipedia.org/wiki/Christina_Hodson#/media/File:Christina_Hodson.jpg"
             };
             writers.Add(writer);
 
@@ -85,7 +93,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "Mark",
                 LastName = "Fergus",
-                Nationality = "American"
+                Nationality = "American",
+                ImageURL = "https://www.freepik.com/free-photo/user-profile-icon-front-side_41949685.htm#query=default%20avatar%20profile&position=3&from_view=search&track=ais"
             };
             writers.Add(writer);
 
@@ -93,7 +102,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "Hawk",
                 LastName = "Ostby",
-                Nationality = "American"
+                Nationality = "American",
+                ImageURL = "https://en.wikipedia.org/wiki/Mark_Fergus_and_Hawk_Ostby#/media/File:Hawk_Ostby,_at_the_Hugo_Awards_Ceremony,_Worldcon,_Helsinki.jpg"
             };
             writers.Add(writer);
 
@@ -101,7 +111,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "Justin",
                 LastName = "Theroux",
-                Nationality = "American"
+                Nationality = "American",
+                ImageURL = "https://en.wikipedia.org/wiki/Justin_Theroux#/media/File:Maniac_UK_premiere_(Theroux).jpg"
             };
             writers.Add(writer);
 
@@ -109,7 +120,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "Chris",
                 LastName = "McKenna",
-                Nationality = "American"
+                Nationality = "American",
+                ImageURL = "https://en.wikipedia.org/wiki/Chris_McKenna_(writer)#/media/File:Chris_McKenna_(14584155278).jpg"
             };
             writers.Add(writer);
 
@@ -117,7 +129,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "Erik",
                 LastName = "Sommers",
-                Nationality = "American"
+                Nationality = "American",
+                ImageURL = "https://www.freepik.com/free-photo/user-profile-icon-front-side_41949685.htm#query=default%20avatar%20profile&position=3&from_view=search&track=ais"
             };
             writers.Add(writer);
 
@@ -125,7 +138,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "Jonathan",
                 LastName = "Goldstein",
-                Nationality = "American"
+                Nationality = "American",
+                ImageURL = "https://www.freepik.com/free-photo/user-profile-icon-front-side_41949685.htm#query=default%20avatar%20profile&position=3&from_view=search&track=ais"
             };
             writers.Add(writer);
 
@@ -133,7 +147,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "John",
                 LastName = "Daley",
-                Nationality = "American"
+                Nationality = "American",
+                ImageURL = "https://en.wikipedia.org/wiki/John_Francis_Daley#/media/File:John_Francis_Daley_in_March_2012.jpg"
             };
             writers.Add(writer);
 
@@ -141,7 +156,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "Christopher",
                 LastName = "Ford",
-                Nationality = "American"
+                Nationality = "American",
+                ImageURL = "https://www.freepik.com/free-photo/user-profile-icon-front-side_41949685.htm#query=default%20avatar%20profile&position=3&from_view=search&track=ais"
             };
             writers.Add(writer);
 
@@ -149,7 +165,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "Joby",
                 LastName = "Harold",
-                Nationality = "English"
+                Nationality = "English",
+                ImageURL = "https://en.wikipedia.org/wiki/Joby_Harold#/media/File:Joby_Harold_on_Sidewalks_Entertainment.jpg"
             };
             writers.Add(writer);
 

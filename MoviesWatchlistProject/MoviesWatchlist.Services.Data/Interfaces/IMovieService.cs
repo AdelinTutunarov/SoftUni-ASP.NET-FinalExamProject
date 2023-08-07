@@ -1,4 +1,5 @@
-﻿using MoviesWatchlist.Web.ViewModels.Movie;
+﻿using MoviesWatchlist.Services.Data.Models.Movie;
+using MoviesWatchlist.Web.ViewModels.Movie;
 
 namespace MoviesWatchlist.Services.Data.Interfaces
 {
@@ -6,5 +7,6 @@ namespace MoviesWatchlist.Services.Data.Interfaces
 	{
 		Task AddMovieAsync(AddMovieViewModel model);
 
+		Task<AllMovieServiceModel> AllAsync(AllMovieQueryModel queryModel);
     }
 }

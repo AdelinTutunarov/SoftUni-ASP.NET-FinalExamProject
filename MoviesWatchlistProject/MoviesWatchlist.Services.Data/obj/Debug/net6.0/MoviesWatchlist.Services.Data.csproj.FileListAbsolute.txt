@@ -19,3 +19,5 @@ D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesW
 D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Services.Data\obj\Debug\net6.0\refint\MoviesWatchlist.Services.Data.dll
 D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Services.Data\obj\Debug\net6.0\MoviesWatchlist.Services.Data.pdb
 D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Services.Data\obj\Debug\net6.0\ref\MoviesWatchlist.Services.Data.dll
+D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Services.Data\bin\Debug\net6.0\MoviesWatchlist.Services.Data.Models.dll
+D:\C#\ASP.NET materials\ASP.NET\Project\SoftUni-ASP.NET-FinalExamProject\MoviesWatchlistProject\MoviesWatchlist.Services.Data\bin\Debug\net6.0\MoviesWatchlist.Services.Data.Models.pdb

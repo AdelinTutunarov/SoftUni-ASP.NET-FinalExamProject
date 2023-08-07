@@ -11,6 +11,7 @@
           "MoviesWatchlist.Common": "1.0.0",
           "MoviesWatchlist.Data": "1.0.0",
           "MoviesWatchlist.Data.Models": "1.0.0",
+          "MoviesWatchlist.Services.Data.Models": "1.0.0",
           "MoviesWatchlist.Web.ViewModels": "1.0.0"
         },
         "runtime": {
@@ -542,6 +543,14 @@
           "MoviesWatchlist.Data.Models.dll": {}
         }
       },
+      "MoviesWatchlist.Services.Data.Models/1.0.0": {
+        "dependencies": {
+          "MoviesWatchlist.Web.ViewModels": "1.0.0"
+        },
+        "runtime": {
+          "MoviesWatchlist.Services.Data.Models.dll": {}
+        }
+      },
       "MoviesWatchlist.Web.ViewModels/1.0.0": {
         "dependencies": {
           "MoviesWatchlist.Common": "1.0.0"
@@ -884,6 +893,11 @@
       "sha512": ""
     },
     "MoviesWatchlist.Data.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MoviesWatchlist.Services.Data.Models/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

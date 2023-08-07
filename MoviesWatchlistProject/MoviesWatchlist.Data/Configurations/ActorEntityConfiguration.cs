@@ -21,7 +21,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "Hugo",
                 LastName = "Weaving",
-                Nationality = "British"
+                Nationality = "British",
+                ImageURL = "https://en.wikipedia.org/wiki/Hugo_Weaving#/media/File:MJK_08925_Hugo_Weaving_(Berlinale_2018)_bw43.jpg"
             };
             actors.Add(actor);
 
@@ -29,7 +30,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "Shia",
                 LastName = "LaBeouf",
-                Nationality = "American"
+                Nationality = "American",
+                ImageURL = "https://en.wikipedia.org/wiki/Shia_LaBeouf#/media/File:Shia_LaBeouf_2022.jpg"
             };
             actors.Add(actor);
 
@@ -37,7 +39,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "Megan",
                 LastName = "Fox",
-                Nationality = "American"
+                Nationality = "American",
+                ImageURL = "https://en.wikipedia.org/wiki/Megan_Fox#/media/File:Machine_Gun_Kelly_and_Megan_Fox_(51914406561)_(cropped2).jpg"
             };
             actors.Add(actor);
 
@@ -45,7 +48,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "Tyrese",
                 LastName = "Gibson",
-                Nationality = "American"
+                Nationality = "American",
+                ImageURL = "https://en.wikipedia.org/wiki/Tyrese_Gibson#/media/File:TyreseGibsonDec08.jpg"
             };
             actors.Add(actor);
 
@@ -53,7 +57,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "Joshua",
                 LastName = "Duhamel",
-                Nationality = "American"
+                Nationality = "American",
+                ImageURL = "https://en.wikipedia.org/wiki/Josh_Duhamel#/media/File:Josh_Duhamel_SXSW_2017_(cropped).jpg"
             };
             actors.Add(actor);
 
@@ -61,7 +66,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "John",
                 LastName = "Turturro",
-                Nationality = "American"
+                Nationality = "American",
+                ImageURL = "https://en.wikipedia.org/wiki/John_Turturro#/media/File:John_Turturro_2017.jpg"
             };
             actors.Add(actor);
 
@@ -69,7 +75,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "Mark",
                 LastName = "Wahlberg",
-                Nationality = "American"
+                Nationality = "American",
+                ImageURL = "https://en.wikipedia.org/wiki/Mark_Wahlberg#/media/File:Mark_Wahlberg_2021.jpg"
             };
             actors.Add(actor);
 
@@ -77,7 +84,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "Stanley",
                 LastName = "Tucci",
-                Nationality = "American"
+                Nationality = "American",
+                ImageURL = "https://en.wikipedia.org/wiki/Stanley_Tucci#/media/File:Stanley_Tucci_2017_Berlinale.jpg"
             };
             actors.Add(actor);
 
@@ -85,7 +93,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "Anthony",
                 LastName = "Hopkins",
-                Nationality = "Welsh"
+                Nationality = "Welsh",
+                ImageURL = "https://en.wikipedia.org/wiki/Anthony_Hopkins#/media/File:AnthonyHopkins10TIFF.jpg"
             };
             actors.Add(actor);
 
@@ -93,7 +102,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "Hailee",
                 LastName = "Steinfeld",
-                Nationality = "American"
+                Nationality = "American",
+                ImageURL = "https://en.wikipedia.org/wiki/Hailee_Steinfeld#/media/File:Hailee_Steinfeld_by_Gage_Skidmore.jpg"
             };
             actors.Add(actor);
 
@@ -101,7 +111,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "John",
                 LastName = "Cena",
-                Nationality = "American"
+                Nationality = "American",
+                ImageURL = "https://en.wikipedia.org/wiki/John_Cena#/media/File:John_Cena_July_2018.jpg"
             };
             actors.Add(actor);
 
@@ -109,7 +120,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "John",
                 LastName = "Ortiz",
-                Nationality = "American"
+                Nationality = "American",
+                ImageURL = "https://en.wikipedia.org/wiki/John_Ortiz#/media/File:John_Ortiz_2019.jpg"
             };
             actors.Add(actor);
 
@@ -117,7 +129,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "Anthony",
                 LastName = "Ramos",
-                Nationality = "American"
+                Nationality = "American",
+                ImageURL = "https://en.wikipedia.org/wiki/Anthony_Ramos#/media/File:Anthony_Ramos_(cropped).jpg"
             };
             actors.Add(actor);
 
@@ -125,7 +138,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "Dominique",
                 LastName = "Fishback",
-                Nationality = "American"
+                Nationality = "American",
+                ImageURL = "https://en.wikipedia.org/wiki/Dominique_Fishback#/media/File:TIFF_2018_Dominique_Fishback_(1_of_1)-2.jpg"
             };
             actors.Add(actor);
 
@@ -133,7 +147,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "Robert",
                 LastName = "Downey Jr.",
-                Nationality = "American"
+                Nationality = "American",
+                ImageURL = "https://en.wikipedia.org/wiki/Robert_Downey_Jr.#/media/File:Robert_Downey_Jr_2014_Comic_Con_(cropped).jpg"
             };
             actors.Add(actor);
 
@@ -141,7 +156,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "Terrence",
                 LastName = "Howard",
-                Nationality = "American"
+                Nationality = "American",
+                ImageURL = "https://en.wikipedia.org/wiki/Terrence_Howard#/media/File:Terrence_Howard.jpg"
             };
             actors.Add(actor);
 
@@ -149,7 +165,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "Gwyneth",
                 LastName = "Paltrow",
-                Nationality = "American"
+                Nationality = "American",
+                ImageURL = "https://en.wikipedia.org/wiki/Gwyneth_Paltrow#/media/File:GwynethPaltrowByAndreaRaffin2011.jpg"
             };
             actors.Add(actor);
 
@@ -157,7 +174,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "Scarlett",
                 LastName = "Johansson",
-                Nationality = "American"
+                Nationality = "American",
+                ImageURL = "https://en.wikipedia.org/wiki/Scarlett_Johansson#/media/File:Scarlett_Johansson_by_Gage_Skidmore_2_(cropped,_2).jpg"
             };
             actors.Add(actor);
 
@@ -165,7 +183,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "Samuel",
                 LastName = "Jackson",
-                Nationality = "American"
+                Nationality = "American",
+                ImageURL = "https://en.wikipedia.org/wiki/Samuel_L._Jackson"
             };
             actors.Add(actor);
 
@@ -173,7 +192,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "Tom",
                 LastName = "Holland",
-                Nationality = "English"
+                Nationality = "English",
+                ImageURL = "https://en.wikipedia.org/wiki/Tom_Holland#/media/File:Tom_Holland_by_Gage_Skidmore.jpg"
             };
             actors.Add(actor);
 
@@ -181,7 +201,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "Michael",
                 LastName = "Keaton",
-                Nationality = "American"
+                Nationality = "American",
+                ImageURL = "https://en.wikipedia.org/wiki/Michael_Keaton#/media/File:Michael_Keaton_(NYCC_2014)_(cropped).JPG"
             };
             actors.Add(actor);
 
@@ -189,7 +210,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "Zendaya",
                 LastName = "Coleman",
-                Nationality = "American"
+                Nationality = "American",
+                ImageURL = "https://en.wikipedia.org/wiki/Zendaya#/media/File:Zendaya_-_2019_by_Glenn_Francis.jpg"
             };
             actors.Add(actor);
 
@@ -197,7 +219,8 @@ namespace MoviesWatchlist.Data.Configurations
             {
                 FirstName = "Jacob",
                 LastName = "Batalon",
-                Nationality = "American"
+                Nationality = "American",
+                ImageURL = "https://en.wikipedia.org/wiki/Jacob_Batalon#/media/File:Jacob_Batalon_(28035642754)_(cropped).jpg"
             };
             actors.Add(actor);
 
