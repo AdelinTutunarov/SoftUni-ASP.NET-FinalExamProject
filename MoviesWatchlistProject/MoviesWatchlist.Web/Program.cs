@@ -3,6 +3,7 @@ using MoviesWatchlist.Data;
 using MoviesWatchlist.Data.Models;
 using MoviesWatchlist.Services.Data.Interfaces;
 using MoviesWatchList.Web.Infrastructure.Extensions;
+using MoviesWatchList.Web.Infrastructure.ModelBinders;
 
 namespace MoviesWatchlist.Web
 {
@@ -31,7 +32,10 @@ namespace MoviesWatchlist.Web
 
             builder.Services.AddAppServices(typeof(IMovieService));
 
-            builder.Services.AddControllersWithViews();
+            builder.Services.AddControllersWithViews().AddMvcOptions(oprions =>
+            {
+                oprions.ModelBinderProviders.Insert(0, new DecimalModelBinderProvider());
+            });
 
             var app = builder.Build();
 
