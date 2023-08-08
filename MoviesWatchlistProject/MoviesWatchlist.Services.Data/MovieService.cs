@@ -3,8 +3,10 @@ using MoviesWatchlist.Data;
 using MoviesWatchlist.Data.Models;
 using MoviesWatchlist.Services.Data.Interfaces;
 using MoviesWatchlist.Services.Data.Models.Movie;
+using MoviesWatchlist.Web.ViewModels.Genre;
 using MoviesWatchlist.Web.ViewModels.Movie;
 using MoviesWatchlist.Web.ViewModels.Movie.Enums;
+using MoviesWatchlist.Web.ViewModels.MovieParticipants;
 
 namespace MoviesWatchlist.Services.Data
 {
@@ -116,6 +118,66 @@ namespace MoviesWatchlist.Services.Data
             {
                 TotalMoviesCount = totalMovies,
                 Movies = movies
+            };
+        }
+
+        public async Task<bool> ExistsByIdAsync(string id)
+        {
+            bool result = await dbContext.Movies.AnyAsync(m => m.Id.ToString() == id);
+
+            return result;
+        }
+
+        public async Task<DetailsMovieViewModel> GetMovieDetailsAsync(string movieId)
+        {
+            Movie movie = await dbContext.Movies.FirstAsync(m => m.Id.ToString() == movieId);
+            ICollection<SelectParticipantFormModel> actorsInTheMovie = new HashSet<SelectParticipantFormModel>();
+            ICollection<SelectParticipantFormModel> writersInTheMovie = new HashSet<SelectParticipantFormModel>();
+            ICollection<SelectGenreFormModel> genres = new HashSet<SelectGenreFormModel>();
+
+            foreach (var movieActor in movie.MoviesActors)
+            {
+                actorsInTheMovie.Add(new SelectParticipantFormModel()
+                {
+                    Id = movieActor.ActorId.ToString(),
+                    FullName = $"{movieActor.Actor.FirstName} {movieActor.Actor.LastName}"
+                });
+            }
+
+            foreach (var movieWriter in movie.MoviesWriters)
+            {
+                writersInTheMovie.Add(new SelectParticipantFormModel()
+                {
+                    Id = movieWriter.WriterId.ToString(),
+                    FullName = $"{movieWriter.Writer.FirstName} {movieWriter.Writer.LastName}"
+                });
+            }
+
+            foreach (var movieGenre in movie.MoviesGenres)
+            {
+                genres.Add(new SelectGenreFormModel()
+                {
+                    Id = movieGenre.GenreId.ToString(),
+                    Name = movieGenre.Genre.Name
+                });
+            }
+
+            return new DetailsMovieViewModel()
+            {
+                Id = movie.Id.ToString(),
+                Title = movie.Title,
+                ReleaseYear = movie.ReleaseYear,
+                Rating = movie.Rating,
+                ImgURL = movie.ImageURL,
+                Description = movie.Description,
+                Director = new SelectParticipantFormModel()
+                {
+                    Id = movie.DirectorId.ToString(),
+                    FullName = $"{movie.Director.FirstName} {movie.Director.LastName}"
+                },
+                Actors = actorsInTheMovie,
+                Writers = writersInTheMovie,
+                Genres = genres
             };
         }
 

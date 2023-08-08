@@ -1,0 +1,55 @@
+﻿@model DetailsMovieViewModel
+@{
+    ViewBag.Title = "Movie Details";
+}
+
+<h2 class="text-center">@ViewBag.Title</h2>
+<hr />
+
+<div class="container" style="display:inline">
+    <div class="row">
+        <div class="col-4">
+            <img class="card-img-top" style="width: 20rem;"
+                 src="@Model.ImgURL" alt="Movie Image">
+        </div>
+        <div class="card col-8 border-0">
+            <p style="font-size:25px;"><u>@Model.Title - @Model.ReleaseYear</u></p>
+            <p>@Model.Description</p>
+            <p>
+                Rating:
+                <b>@($"{Model.Rating:f2}")</b>
+            </p>
+            <ul>
+                @foreach (var genre in Model.Genres)
+                {
+                    <a class="btn btn-warning" asp-controller="Genre" asp-action="All"
+                        asp-route-id="@genre.Id">@($"{genre.Name}")</a>
+                }
+            </ul>
+            <ul>
+                @foreach (var actor in Model.Actors)
+                {
+                    <a class="btn btn-warning" asp-controller="Actor" asp-action="All"
+                        asp-route-id="@actor.Id">@($"{actor.FullName}")</a>
+                }
+            </ul>
+            <a class="btn btn-warning" asp-controller="Director" asp-action="All"
+                asp-route-id="@Model.Director.Id">@($"{Model.Director.FullName}")</a>
+            <ul>
+                @foreach (var writer in Model.Writers)
+                {
+                    <a class="btn btn-warning" asp-controller="Writer" asp-action="All"
+                        asp-route-id="@writer.Id">@($"{writer.FullName}")</a>
+                }
+            </ul>
+            <div class="form-inline">
+                @if (User.Identity?.IsAuthenticated ?? false)
+                {
+                    <a class="btn btn-warning" asp-controller="Movie" asp-action="Edit"
+                        asp-route-id="@Model.Id">Edit</a>
+                }
+            </div>
+            <p></p>
+        </div>
+    </div>
+</div>

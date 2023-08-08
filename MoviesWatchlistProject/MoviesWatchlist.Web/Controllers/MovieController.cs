@@ -39,6 +39,28 @@ namespace MoviesWatchlist.Web.Controllers
             return View(queryModel);
         }
 
+        public async Task<IActionResult> Details(string id)
+        {
+            bool movieExists = await movieService.ExistsByIdAsync(id);
+            if (!movieExists)
+            {
+                TempData[ErrorMessage] = "Movie with the provided id does not exist!";
+
+                return RedirectToAction("All", "Movie");
+            }
+
+            try
+            {
+                DetailsMovieViewModel viewModel = await movieService.GetMovieDetailsAsync(id);
+
+                return View(viewModel);
+            }
+            catch (Exception)
+            {
+                return GeneralError();
+            }
+        }
+
         public async Task<IActionResult> Mine()
         {
             IEnumerable<AllMovieViewModel> myMovies = await movieService.GetMyMoviesAsync(GetUserId());
