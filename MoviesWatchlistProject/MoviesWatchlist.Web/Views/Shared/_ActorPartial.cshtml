@@ -1,0 +1,23 @@
+﻿@model AllParticipantViewModel;
+
+<div class="col-md-4">
+    <div class="card mb-3">
+        <img class="card-img-top" src="@Model.ImageURL" alt="Image">
+        <div class="card-body text-center">
+            <h4>@Model.FullName</h4>
+            <h6><b>@Model.Nationality</b></h6>
+            <br />
+            <a asp-area="" asp-controller="Actor" asp-action="Movies" asp-route-id="@Model.Id"
+               class="btn btn-success">See all the movies the actor is part of!</a>
+
+            @if (User.Identity?.IsAuthenticated ?? false)
+            {
+                <a asp-area="" asp-controller="Actor" asp-action="Edit" asp-route-id="@Model.Id"
+                class="btn btn-warning">Edit</a>
+                <a asp-area="" asp-controller="Actor" asp-action="Delete" asp-route-id="@Model.Id"
+                class="btn btn-danger">Delete</a>
+                <p></p>
+            }
+        </div>
+    </div>
+</div>

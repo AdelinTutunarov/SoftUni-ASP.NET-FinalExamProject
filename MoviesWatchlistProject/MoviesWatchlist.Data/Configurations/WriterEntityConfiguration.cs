@@ -22,7 +22,7 @@ namespace MoviesWatchlist.Data.Configurations
                 FirstName = "Roberto",
                 LastName = "Orci",
                 Nationality = "Mexican-American",
-                ImageURL = "https://en.wikipedia.org/wiki/Roberto_Orci#/media/File:Roberto_Orci_by_Gage_Skidmore.jpg"
+                ImageURL = "https://variety.com/wp-content/uploads/2014/05/roberto-orci.jpg"
             };
             writers.Add(writer);
 
@@ -31,7 +31,7 @@ namespace MoviesWatchlist.Data.Configurations
                 FirstName = "Alex",
                 LastName = "Kurtzman",
                 Nationality = "American",
-                ImageURL = "https://en.wikipedia.org/wiki/Alex_Kurtzman#/media/File:Alex_Kurtzman_San_Diego_Comic_Con_2019.jpg"
+                ImageURL = "https://www.startrek.com/sites/default/files/styles/content_full/public/images/2019-07/b58f7d184743106a8a66028b7a28937c.jpg?itok=WAC4Y1l3"
             };
             writers.Add(writer);
 
@@ -40,7 +40,7 @@ namespace MoviesWatchlist.Data.Configurations
                 FirstName = "John",
                 LastName = "Rogers",
                 Nationality = "American",
-                ImageURL = "https://en.wikipedia.org/wiki/John_Rogers_(writer)#/media/File:John_Rogers_(971464822)_(cropped).jpg"
+                ImageURL = "https://bioelectronics.northwestern.edu/images/people/members/rogers-john.jpg"
             };
             writers.Add(writer);
 
@@ -49,7 +49,7 @@ namespace MoviesWatchlist.Data.Configurations
                 FirstName = "Ehren",
                 LastName = "Kruger",
                 Nationality = "American",
-                ImageURL = "https://www.freepik.com/free-photo/user-profile-icon-front-side_41949685.htm#query=default%20avatar%20profile&position=3&from_view=search&track=ais"
+                ImageURL = "https://m.media-amazon.com/images/M/MV5BMTc4Nzk4NTg2Nl5BMl5BanBnXkFtZTYwNTQ4OTU3._V1_.jpg"
             };
             writers.Add(writer);
 
@@ -58,7 +58,7 @@ namespace MoviesWatchlist.Data.Configurations
                 FirstName = "Ken",
                 LastName = "Nolan",
                 Nationality = "American",
-                ImageURL = "https://www.freepik.com/free-photo/user-profile-icon-front-side_41949685.htm#query=default%20avatar%20profile&position=3&from_view=search&track=ais"
+                ImageURL = "https://images.mubicdn.net/images/cast_member/16761/cache-259975-1506415601/image-w856.jpg?size=800x"
             };
             writers.Add(writer);
 
@@ -67,7 +67,7 @@ namespace MoviesWatchlist.Data.Configurations
                 FirstName = "Art",
                 LastName = "Marcum",
                 Nationality = "American",
-                ImageURL = "https://www.freepik.com/free-photo/user-profile-icon-front-side_41949685.htm#query=default%20avatar%20profile&position=3&from_view=search&track=ais"
+                ImageURL = "https://scriptmag.com/.image/t_share/MTg3Nzg2ODU1Nzc1NzQxMjcz/artmarcum.jpg"
             };
             writers.Add(writer);
 
@@ -76,7 +76,7 @@ namespace MoviesWatchlist.Data.Configurations
                 FirstName = "Matt",
                 LastName = "Holloway",
                 Nationality = "American",
-                ImageURL = "https://www.freepik.com/free-photo/user-profile-icon-front-side_41949685.htm#query=default%20avatar%20profile&position=3&from_view=search&track=ais"
+                ImageURL = "https://ausdrain.com/wp-content/uploads/2018/03/Matt-ausdain-tile-1-e1607646121344-576x380.jpg"
             };
             writers.Add(writer);
 
@@ -85,7 +85,7 @@ namespace MoviesWatchlist.Data.Configurations
                 FirstName = "Christina",
                 LastName = "Hodson",
                 Nationality = "British",
-                ImageURL = "https://en.wikipedia.org/wiki/Christina_Hodson#/media/File:Christina_Hodson.jpg"
+                ImageURL = "https://i0.wp.com/geeksofcolor.co/wp-content/uploads/2018/04/1-ex0dre0izo58_qehqtglbw.jpg?resize=800%2C469&ssl=1"
             };
             writers.Add(writer);
 
@@ -94,7 +94,7 @@ namespace MoviesWatchlist.Data.Configurations
                 FirstName = "Mark",
                 LastName = "Fergus",
                 Nationality = "American",
-                ImageURL = "https://www.freepik.com/free-photo/user-profile-icon-front-side_41949685.htm#query=default%20avatar%20profile&position=3&from_view=search&track=ais"
+                ImageURL = "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/4/47/Mark_Fergus.jpg/revision/latest?cb=20120922000533"
             };
             writers.Add(writer);
 
@@ -103,7 +103,7 @@ namespace MoviesWatchlist.Data.Configurations
                 FirstName = "Hawk",
                 LastName = "Ostby",
                 Nationality = "American",
-                ImageURL = "https://en.wikipedia.org/wiki/Mark_Fergus_and_Hawk_Ostby#/media/File:Hawk_Ostby,_at_the_Hugo_Awards_Ceremony,_Worldcon,_Helsinki.jpg"
+                ImageURL = "https://variety.com/wp-content/uploads/2013/09/hawk-ostby-mark-fergus.jpg?w=1000"
             };
             writers.Add(writer);
 
@@ -112,7 +112,7 @@ namespace MoviesWatchlist.Data.Configurations
                 FirstName = "Justin",
                 LastName = "Theroux",
                 Nationality = "American",
-                ImageURL = "https://en.wikipedia.org/wiki/Justin_Theroux#/media/File:Maniac_UK_premiere_(Theroux).jpg"
+                ImageURL = "https://media-cldnry.s-nbcnews.com/image/upload/rockcms/2023-05/justin-Theroux-Jennifer-Aniston-te-230501-5e6504.jpg"
             };
             writers.Add(writer);
 
@@ -121,7 +121,7 @@ namespace MoviesWatchlist.Data.Configurations
                 FirstName = "Chris",
                 LastName = "McKenna",
                 Nationality = "American",
-                ImageURL = "https://en.wikipedia.org/wiki/Chris_McKenna_(writer)#/media/File:Chris_McKenna_(14584155278).jpg"
+                ImageURL = "https://1.bp.blogspot.com/-Hef2MXW2WhM/W-Es5fvF8eI/AAAAAAAALUo/9AvYphdbpUU5XHAJaMmIXiiKdj-FsuDwwCLcBGAs/s1600/ChrisMc.jpeg"
             };
             writers.Add(writer);
 
@@ -130,7 +130,7 @@ namespace MoviesWatchlist.Data.Configurations
                 FirstName = "Erik",
                 LastName = "Sommers",
                 Nationality = "American",
-                ImageURL = "https://www.freepik.com/free-photo/user-profile-icon-front-side_41949685.htm#query=default%20avatar%20profile&position=3&from_view=search&track=ais"
+                ImageURL = "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/7/7a/Erik_Sommers.png/revision/latest?cb=20210927114539"
             };
             writers.Add(writer);
 
@@ -139,7 +139,7 @@ namespace MoviesWatchlist.Data.Configurations
                 FirstName = "Jonathan",
                 LastName = "Goldstein",
                 Nationality = "American",
-                ImageURL = "https://www.freepik.com/free-photo/user-profile-icon-front-side_41949685.htm#query=default%20avatar%20profile&position=3&from_view=search&track=ais"
+                ImageURL = "https://i.guim.co.uk/img/media/254c8463684b9022559adeffd4162424a52008d5/0_175_3456_2073/master/3456.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&s=d9f4c5375c148042bf815c6f09fd1ae6"
             };
             writers.Add(writer);
 
@@ -148,7 +148,7 @@ namespace MoviesWatchlist.Data.Configurations
                 FirstName = "John",
                 LastName = "Daley",
                 Nationality = "American",
-                ImageURL = "https://en.wikipedia.org/wiki/John_Francis_Daley#/media/File:John_Francis_Daley_in_March_2012.jpg"
+                ImageURL = "https://flxt.tmsimg.com/assets/189544_v9_bb.jpg"
             };
             writers.Add(writer);
 
@@ -157,7 +157,7 @@ namespace MoviesWatchlist.Data.Configurations
                 FirstName = "Christopher",
                 LastName = "Ford",
                 Nationality = "American",
-                ImageURL = "https://www.freepik.com/free-photo/user-profile-icon-front-side_41949685.htm#query=default%20avatar%20profile&position=3&from_view=search&track=ais"
+                ImageURL = "https://static.wikia.nocookie.net/marvelcinematicuniverse/images/c/c2/Christopher_Ford.jpg/revision/latest?cb=20210927095630"
             };
             writers.Add(writer);
 
@@ -166,7 +166,7 @@ namespace MoviesWatchlist.Data.Configurations
                 FirstName = "Joby",
                 LastName = "Harold",
                 Nationality = "English",
-                ImageURL = "https://en.wikipedia.org/wiki/Joby_Harold#/media/File:Joby_Harold_on_Sidewalks_Entertainment.jpg"
+                ImageURL = "https://www.comingsoon.net/wp-content/uploads/sites/3/2020/04/jobyharold.jpg?w=800"
             };
             writers.Add(writer);
 

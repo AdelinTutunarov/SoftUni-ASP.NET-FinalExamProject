@@ -22,7 +22,7 @@ namespace MoviesWatchlist.Data.Configurations
                 FirstName = "Michael",
                 LastName = "Bay",
                 Nationality = "American",
-                ImageURL = "https://en.wikipedia.org/wiki/Michael_Bay_filmography#/media/File:Michael.bay.png"
+                ImageURL = "https://deadline.com/wp-content/uploads/2022/12/Michael-Bay.jpg"
             };
             directors.Add(director);
 
@@ -31,7 +31,7 @@ namespace MoviesWatchlist.Data.Configurations
                 FirstName = "Travis",
                 LastName = "Knight",
                 Nationality = "American",
-                ImageURL = "https://en.wikipedia.org/wiki/Travis_Knight#/media/File:Travis_Knight_(30000495292).jpg"
+                ImageURL = "https://deadline.com/wp-content/uploads/2020/01/shutterstock_editorial_10540803ev-e1580315841789.jpg"
             };
             directors.Add(director);
 
@@ -40,7 +40,7 @@ namespace MoviesWatchlist.Data.Configurations
                 FirstName = "Steven",
                 LastName = "Caple Jr.",
                 Nationality = "American",
-                ImageURL = "https://www.freepik.com/free-photo/user-profile-icon-front-side_41949685.htm#query=default%20avatar%20profile&position=3&from_view=search&track=ais"
+                ImageURL = "https://images.bauerhosting.com/empire/2023/06/steven-caple-jr.jpg?format=jpg&quality=80&width=960&height=540&ratio=16-9&resize=aspectfill"
             };
             directors.Add(director);
 
@@ -49,7 +49,7 @@ namespace MoviesWatchlist.Data.Configurations
                 FirstName = "Jonathan",
                 LastName = "Favreau",
                 Nationality = "American",
-                ImageURL = "https://en.wikipedia.org/wiki/Jon_Favreau#/media/File:Jon_Favreau_2016.jpeg"
+                ImageURL = "https://lumiere-a.akamaihd.net/v1/images/jon-favreau-hollywood-walk-of-fame-feature_464fe901.jpeg"
             };
             directors.Add(director);
 
@@ -58,7 +58,7 @@ namespace MoviesWatchlist.Data.Configurations
                 FirstName = "Jonathan",
                 LastName = "Watts",
                 Nationality = "American",
-                ImageURL = "https://en.wikipedia.org/wiki/Jon_Watts#/media/File:Jon_Watts_by_Gage_Skidmore_2.jpg"
+                ImageURL = "https://variety.com/wp-content/uploads/2022/04/Jon-Watts.jpg?w=1000"
             };
             directors.Add(director);
 

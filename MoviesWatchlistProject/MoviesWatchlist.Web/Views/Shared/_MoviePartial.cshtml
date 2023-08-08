@@ -1,5 +1,24 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
+﻿@model AllMovieViewModel;
+
+<div class="col-md-4">
+    <div class="card mb-3">
+        <img class="card-img-top" style="width: 18rem;" src="@Model.ImgURL" alt="Movie Image">
+        <div class="card-body text-center">
+            <h4>@Model.Title</h4>
+            <h6>
+                <b>@($"{Model.Rating:f2}") BGN</b>
+            </h6>
+            <h6>Release year: <b>@Model.ReleaseYear</b></h6>
+            <br />
+            <a asp-area="" asp-controller="Movie" asp-action="Details" asp-route-id="@Model.Id"
+               class="btn btn-success">Details</a>
+
+            @if (User.Identity?.IsAuthenticated ?? false)
+            {
+                <a asp-area="" asp-controller="Movie" asp-action="Edit" asp-route-id="@Model.Id"
+                    class="btn btn-warning">Edit</a>
+                <p></p>
+            }
+        </div>
+    </div>
+</div>

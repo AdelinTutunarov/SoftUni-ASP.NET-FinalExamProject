@@ -1,0 +1,23 @@
+﻿@model AllGenreViewModel;
+
+<div class="col-md-4">
+    <div class="card mb-3">
+        <img class="card-img-top" src="@Model.ImgURL" alt="Image">
+        <div class="card-body text-center">
+            <h4>@Model.GenreName</h4>
+            <br />
+            <a asp-area="" asp-controller="Genre" asp-action="Movies" asp-route-id="@Model.Id"
+               class="btn btn-success">@($"See all the {Model.GenreName} movies!")</a>
+
+            @if (User.Identity?.IsAuthenticated ?? false)
+            {
+                    <a asp-area="" asp-controller="Genre" asp-action="Edit" asp-route-id="@Model.Id"
+                class="btn btn-warning">Edit</a>
+                    <a asp-area="" asp-controller="Genre" asp-action="Delete" asp-route-id="@Model.Id"
+                class="btn btn-danger">Delete</a>
+                    <p></p>
+            }
+        </div>
+    </div>
+</div>
+
