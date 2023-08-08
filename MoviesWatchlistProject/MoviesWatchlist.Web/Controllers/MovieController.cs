@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MoviesWatchlist.Services.Data.Interfaces;
+using MoviesWatchlist.Services.Data.Models.Movie;
 using MoviesWatchlist.Web.ViewModels.Movie;
 
 namespace MoviesWatchlist.Web.Controllers
@@ -26,10 +27,16 @@ namespace MoviesWatchlist.Web.Controllers
             this.movieService = movieService;
         }
 
+        [HttpGet]
         [AllowAnonymous]
-        public async Task<IActionResult> All()
+        public async Task<IActionResult> All([FromQuery]AllMovieQueryModel queryModel)
         {
-            return Ok();
+            AllMovieServiceModel serviceModel = await movieService.AllAsync(queryModel);
+
+            queryModel.Movies = serviceModel.Movies;
+            queryModel.TotalMovies = serviceModel.TotalMoviesCount;
+            
+            return View(queryModel);
         }
 
         [HttpGet]

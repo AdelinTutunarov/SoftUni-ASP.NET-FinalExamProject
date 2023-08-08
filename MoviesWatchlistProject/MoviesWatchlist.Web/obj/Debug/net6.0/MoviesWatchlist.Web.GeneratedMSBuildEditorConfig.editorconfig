@@ -20,12 +20,28 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/C\#/ASP.NET materials/ASP.NET/Project/SoftUni-ASP.NET-FinalExamProject/MoviesWatchlistProject/MoviesWatchlist.Web/Views/Actor/All.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWN0b3JcQWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/ASP.NET materials/ASP.NET/Project/SoftUni-ASP.NET-FinalExamProject/MoviesWatchlistProject/MoviesWatchlist.Web/Views/Director/All.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlyZWN0b3JcQWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/ASP.NET materials/ASP.NET/Project/SoftUni-ASP.NET-FinalExamProject/MoviesWatchlistProject/MoviesWatchlist.Web/Views/Genre/All.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2VucmVcQWxsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/C\#/ASP.NET materials/ASP.NET/Project/SoftUni-ASP.NET-FinalExamProject/MoviesWatchlistProject/MoviesWatchlist.Web/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/C\#/ASP.NET materials/ASP.NET/Project/SoftUni-ASP.NET-FinalExamProject/MoviesWatchlistProject/MoviesWatchlist.Web/Views/Movie/Add.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcQWRkLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/ASP.NET materials/ASP.NET/Project/SoftUni-ASP.NET-FinalExamProject/MoviesWatchlistProject/MoviesWatchlist.Web/Views/Movie/All.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aWVcQWxsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/C\#/ASP.NET materials/ASP.NET/Project/SoftUni-ASP.NET-FinalExamProject/MoviesWatchlistProject/MoviesWatchlist.Web/Views/Shared/Error.cshtml]
@@ -40,12 +56,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Nb3ZpZUZvcm1QYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/C\#/ASP.NET materials/ASP.NET/Project/SoftUni-ASP.NET-FinalExamProject/MoviesWatchlistProject/MoviesWatchlist.Web/Views/Shared/_MoviePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Nb3ZpZVBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/C\#/ASP.NET materials/ASP.NET/Project/SoftUni-ASP.NET-FinalExamProject/MoviesWatchlistProject/MoviesWatchlist.Web/Views/Shared/_NotificationsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Ob3RpZmljYXRpb25zUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/C\#/ASP.NET materials/ASP.NET/Project/SoftUni-ASP.NET-FinalExamProject/MoviesWatchlistProject/MoviesWatchlist.Web/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/C\#/ASP.NET materials/ASP.NET/Project/SoftUni-ASP.NET-FinalExamProject/MoviesWatchlistProject/MoviesWatchlist.Web/Views/Writer/All.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcV3JpdGVyXEFsbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/C\#/ASP.NET materials/ASP.NET/Project/SoftUni-ASP.NET-FinalExamProject/MoviesWatchlistProject/MoviesWatchlist.Web/Views/_ViewImports.cshtml]

@@ -19,6 +19,7 @@
     <ProjectReference Include="..\MoviesWatchlist.Common\MoviesWatchlist.Common.csproj" />
     <ProjectReference Include="..\MoviesWatchlist.Data.Models\MoviesWatchlist.Data.Models.csproj" />
     <ProjectReference Include="..\MoviesWatchlist.Data\MoviesWatchlist.Data.csproj" />
+    <ProjectReference Include="..\MoviesWatchlist.Services.Data.Models\MoviesWatchlist.Services.Data.Models.csproj" />
     <ProjectReference Include="..\MoviesWatchlist.Services.Data\MoviesWatchlist.Services.Data.csproj" />
     <ProjectReference Include="..\MoviesWatchList.Web.Infrastructure\MoviesWatchList.Web.Infrastructure.csproj" />
     <ProjectReference Include="..\MoviesWatchlist.Web.ViewModels\MoviesWatchlist.Web.ViewModels.csproj" />
