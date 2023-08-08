@@ -9,7 +9,7 @@ namespace MoviesWatchlist.Web.Controllers
     using static Common.NotificationMessagesConstants;
 
     [Authorize]
-    public class MovieController : Controller
+    public class MovieController : BaseController
     {
         private readonly IActorService actorService;
         private readonly IDirectorService directorService;
@@ -37,6 +37,13 @@ namespace MoviesWatchlist.Web.Controllers
             queryModel.TotalMovies = serviceModel.TotalMoviesCount;
             
             return View(queryModel);
+        }
+
+        public async Task<IActionResult> Mine()
+        {
+            IEnumerable<AllMovieViewModel> myMovies = await movieService.GetMyMoviesAsync(GetUserId());
+
+            return View(myMovies);
         }
 
         [HttpGet]

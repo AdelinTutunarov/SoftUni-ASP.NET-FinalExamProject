@@ -7,7 +7,7 @@ using MoviesWatchlist.Web.ViewModels.Genre;
 namespace MoviesWatchlist.Web.Controllers
 {
     [Authorize]
-    public class GenreController : Controller
+    public class GenreController : BaseController
     {
         private readonly IGenreService genreService;
 

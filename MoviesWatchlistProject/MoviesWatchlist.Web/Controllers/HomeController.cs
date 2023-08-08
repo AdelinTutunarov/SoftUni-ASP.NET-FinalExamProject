@@ -4,7 +4,7 @@ using System.Diagnostics;
 
 namespace MoviesWatchlist.Web.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BaseController
     {
         public HomeController()
         {
@@ -13,7 +13,7 @@ namespace MoviesWatchlist.Web.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return RedirectToAction("All", "Movie");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

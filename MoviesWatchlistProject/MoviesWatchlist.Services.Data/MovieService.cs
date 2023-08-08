@@ -8,32 +8,32 @@ using MoviesWatchlist.Web.ViewModels.Movie.Enums;
 
 namespace MoviesWatchlist.Services.Data
 {
-	public class MovieService : IMovieService
-	{
-		private readonly MoviesDbContext dbContext;
+    public class MovieService : IMovieService
+    {
+        private readonly MoviesDbContext dbContext;
 
-		public MovieService(MoviesDbContext dbContext)
-		{
-			this.dbContext = dbContext;
-		}
+        public MovieService(MoviesDbContext dbContext)
+        {
+            this.dbContext = dbContext;
+        }
 
         public async Task AddMovieAsync(AddMovieViewModel model)
         {
-			Guid id = Guid.NewGuid();
+            Guid id = Guid.NewGuid();
             string[] existingActorIds = dbContext.Actors.Select(a => a.Id.ToString()).ToArray();
             string[] existingWriterIds = dbContext.Writers.Select(w => w.Id.ToString()).ToArray();
             string[] existingGenreIds = dbContext.Genres.Select(g => g.Id.ToString()).ToArray();
 
             Movie movie = new Movie()
-			{
-				Id = id,
-				Title = model.Title,
-				ReleaseYear = model.ReleaseYear,
-				Rating = model.Rating,
-				Description = model.Description,
-				ImageURL = model.ImgURL,
-				DirectorId = Guid.Parse(model.DirectorId)
-			};
+            {
+                Id = id,
+                Title = model.Title,
+                ReleaseYear = model.ReleaseYear,
+                Rating = model.Rating,
+                Description = model.Description,
+                ImageURL = model.ImgURL,
+                DirectorId = Guid.Parse(model.DirectorId)
+            };
 
             foreach (var actor in model.Actors)
             {
@@ -75,7 +75,7 @@ namespace MoviesWatchlist.Services.Data
             }
 
             await dbContext.AddAsync(movie);
-			await dbContext.SaveChangesAsync();
+            await dbContext.SaveChangesAsync();
         }
 
         public async Task<AllMovieServiceModel> AllAsync(AllMovieQueryModel queryModel)
@@ -91,8 +91,8 @@ namespace MoviesWatchlist.Services.Data
 
             moviesQuery = queryModel.MovieSorting switch
             {
-                MovieSorting.ReleaseYearNewest => moviesQuery.OrderBy(m => m.ReleaseYear),
-                MovieSorting.ReleaseYearOldest => moviesQuery.OrderByDescending(m => m.ReleaseYear),
+                MovieSorting.ReleaseYearNewest => moviesQuery.OrderByDescending(m => m.ReleaseYear),
+                MovieSorting.ReleaseYearOldest => moviesQuery.OrderBy(m => m.ReleaseYear),
                 MovieSorting.RatingAscending => moviesQuery.OrderBy(m => m.Rating),
                 MovieSorting.RatingDescending => moviesQuery.OrderByDescending(m => m.Rating),
                 _ => moviesQuery.OrderBy(m => m.Id)
@@ -117,6 +117,22 @@ namespace MoviesWatchlist.Services.Data
                 TotalMoviesCount = totalMovies,
                 Movies = movies
             };
+        }
+
+        public async Task<IEnumerable<AllMovieViewModel>> GetMyMoviesAsync(string userId)
+        {
+            IEnumerable<AllMovieViewModel> myMovies = await dbContext.Movies
+                .Where(m => m.Id.ToString() == userId)
+                .Select(m => new AllMovieViewModel()
+                {
+                    Id = m.Id.ToString(),
+                    Title = m.Title,
+                    Rating = m.Rating,
+                    ReleaseYear = m.ReleaseYear,
+                    ImgURL = m.ImageURL
+                }).ToListAsync();
+
+            return myMovies;
         }
     }
 }

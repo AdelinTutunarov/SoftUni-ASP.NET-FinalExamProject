@@ -8,5 +8,7 @@ namespace MoviesWatchlist.Services.Data.Interfaces
 		Task AddMovieAsync(AddMovieViewModel model);
 
 		Task<AllMovieServiceModel> AllAsync(AllMovieQueryModel queryModel);
+
+		Task<IEnumerable<AllMovieViewModel>> GetMyMoviesAsync(string userId);
     }
 }

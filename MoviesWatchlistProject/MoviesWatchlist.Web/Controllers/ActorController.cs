@@ -7,7 +7,7 @@ using MoviesWatchlist.Web.ViewModels.MovieParticipants;
 namespace MoviesWatchlist.Web.Controllers
 {
     [Authorize]
-    public class ActorController : Controller
+    public class ActorController : BaseController
     {
         private readonly IActorService actorService;
 

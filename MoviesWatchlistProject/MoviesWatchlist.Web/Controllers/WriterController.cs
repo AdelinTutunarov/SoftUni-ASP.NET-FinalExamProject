@@ -7,7 +7,7 @@ using MoviesWatchlist.Web.ViewModels.MovieParticipants;
 namespace MoviesWatchlist.Web.Controllers
 {
     [Authorize]
-    public class WriterController : Controller
+    public class WriterController : BaseController
     {
         private readonly IWriterService writerService;
 
